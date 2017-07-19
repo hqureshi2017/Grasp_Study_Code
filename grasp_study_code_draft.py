@@ -18,9 +18,6 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import numpy as np
 from math import sqrt
-# -------------------------------------------------------
-# Add os so that paths can be created on any file system.
-# -------------------------------------------------------
 import os
 
 # Initialise variables
@@ -67,63 +64,40 @@ for sub_num in subjects:
         sub = 'mock' + '0' + str(sub_num)
     else:
         sub = 'mock' + str(sub_num)
-        
-# -------------------------------------------------------
-# The code below is not indented, so it will only run for
-# 1 subject, the last 'sub' from the above for loop.
-# -------------------------------------------------------
+    info = os.path.join('..', 'study_data', sub, sub + '.txt')
+    print(info)       
+
+-------------------------------------------------------------
+# I can't quite seem to work out how the indent works. Sometimes the above code gives
+# me mock01 and mock02, and other times just mock02. What am I doing wrong?
+-------------------------------------------------------------
+
+# Thanks for pointing out the importing bit. I think I was confusing myself
+# with the pandas import. The readlines method seems much easier. 
 
 # import data for subject info
-# -------------------------------------------------------
-# Using os module to create path.
-# -------------------------------------------------------
-info = os.path.join('..', 'study_data', sub, sub + '.txt')
-print(info)
-# -------------------------------------------------------
-# Changed 'i' to 'sub_info'. Try using informative variable
-# names. 'i' is usually reserved as an iterator and is not
-# informative of the data it contains.
-#
-# There is an issue with the import; you use pandas,
-# which returns a dataframe. If you want to do this you
-# need to specify the data seperator, the fact that there
-# is no header, and that col 1 are your index values.
-# See code below for how to do this. I typically simply
-# read the file as a simply text file and split the data
-# myself (not using pandas).
-# -------------------------------------------------------
-with open(info) as f:
-    sub_info = pd.read_csv(info, sep=":", header=None, index_col=0)
-print(sub_info)
+    with open(info) as f:
+        sub_info = f.readlines()
+    print(sub_info)
+    age.append(int(sub_info[6].strip()[-2:]))
+    gender.append(str(sub_info[2].strip()[-1:]))
+    handedness.append(str(sub_info[4].strip()[-1:]))
 
-# -------------------------------------------------------
-# Note sure what the following code does. There was no data
-# being appended (nothing in the parentheses); and the values
-# you need have not been extracted from the .txt file.
-#
-# I have extracted the data from the dataframe, but this
-# is complicated for nothing. I would recommended reading
-# in the file with the more basic read.csv or something
-# similar, and:
-#     1. loop over each line of text
-#     2. line.split(':') and check if the result first item [0]
-#        is the variable you are looking for. If so, append it.
-#
-# I recommend this approach because this is how you will have
-# to read in the data.
-# -------------------------------------------------------
+------------------------------------------------------------
+# I used the above method. It seems to work. Is the method below better?
+'''
 age.append(sub_info.loc['Age', [1]][1])
 gender.append(sub_info.loc['Gender', [1]][1])
 handedness.append(sub_info.loc['Handedness', [1]][1])
+'''
+------------------------------------------------------------
 
+# Import data from experiment
+    data_long = os.path.join('..', 'study_data', sub, sub + '_data.txt')
+    with open(data_long) as file:
+        data = file.readlines()
+    print(data_long)
+    print(data)
 
-# -------------------------------------------------------
-# See if you can read in a data file and parse the values
-# as described above.
-# -------------------------------------------------------
-# Import data for experiment
-data_long = "..\study_data\\" + sub + '\\' + sub + '_data.txt'
-with open(data_long) as file:
-    data = file.readlines()
-    
+# Need to find the index for specific measures and append the respective lists
 
