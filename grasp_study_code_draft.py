@@ -68,7 +68,7 @@ for sub_num in subjects:
         sub = 'mock' + '0' + str(sub_num)
     else:
         sub = 'mock' + str(sub_num)
-    info = os.path.join('..', 'study_data', sub, sub + '.txt')
+    info = os.path.join('.', 'study_data', sub, sub + '.txt')
     print(info)       
 
 
@@ -96,19 +96,24 @@ handedness.append(sub_info.loc['Handedness', [1]][1])
 
 
 # Import Validation data from experiment
-    data_long = os.path.join('..', 'study_data', sub, sub + '_data.txt')
-    with open(data_long) as file:
+data_long = os.path.join('.', 'study_data', sub, sub + '_data.txt')
+with open(data_long) as file:
       # data = file.readlines()
-       for line in file:
-            if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_R15CM':
-                val_R15cm.append(line.split(':')[1])
-            if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_L15CM':
-                val_L15cm.append(line.split(':')[1])
-            if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_L24CM':
-                val_L24cm.append(line.split(':')[1])
-            if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_R24CM':
-                val_R24cm.append(line.split(':')[1])
+      for line in file:
+        if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_R15CM':
+            val_R15cm.append(line.split(':')[1])
+        if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_L15CM':
+            val_L15cm.append(line.split(':')[1])
+        if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_L24CM':
+            val_L24cm.append(line.split(':')[1])
+        if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_R24CM':
+            val_R24cm.append(line.split(':')[1])
 
+val = pd.DataFrame({'L24':val_L24cm,
+                    'L15':val_L15cm,
+                    'R15':val_R15cm,
+                    'R24':val_R24cm})
+print(val)
 
 # Need to find the index for specific measures and append the respective lists
 with open(data_long) as file:
@@ -173,6 +178,8 @@ with open(data_long) as file:
 exp1 = pd.DataFrame({'age': age,
                      'gender': gender,
                      'handedness': handedness})
+print(exp1)
+exp1.plot()
 
 
 d = { 'age': pd.Series(age),
@@ -208,4 +215,4 @@ d = { 'age': pd.Series(age),
 
 df = pd.DataFrame(d)   
 print(df)
-
+plt.plot(df['val_L15cm'])

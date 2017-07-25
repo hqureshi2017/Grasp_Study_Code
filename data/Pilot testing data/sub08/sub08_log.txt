@@ -1,0 +1,62 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-24 10:23:52
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub08/sub08_log.txt
+		/home/martin/Desktop/horizGraspData/sub08/sub08_summary.txt
+		/home/martin/Desktop/horizGraspData/sub08/sub08_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-24 10:26:34
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub08/sub08_log.txt
+		/home/martin/Desktop/horizGraspData/sub08/sub08_summary.txt
+		/home/martin/Desktop/horizGraspData/sub08/sub08_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-24 10:30:33
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub08/sub08_log.txt
+		/home/martin/Desktop/horizGraspData/sub08/sub08_summary.txt
+		/home/martin/Desktop/horizGraspData/sub08/sub08_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-24 10:52:45
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub08/sub08_log.txt
+		/home/martin/Desktop/horizGraspData/sub08/sub08_summary.txt
+		/home/martin/Desktop/horizGraspData/sub08/sub08_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L15cm *****
+horizontal locValidation (ruler# 5, L15cm): L15cm
+	9cm

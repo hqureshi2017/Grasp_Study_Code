@@ -1,0 +1,225 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-24 12:14:36
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/valid_time_test/valid_time_test_log.txt
+		/home/martin/Desktop/horizGraspData/valid_time_test/valid_time_test_summary.txt
+		/home/martin/Desktop/horizGraspData/valid_time_test/valid_time_test_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L15cm *****
+Perceived spacing - horizontal: L15cm
+Subject selected: M
+Subject answer = 27.0 uncrossed
+Subject answer = 27
+CHART:
+	a = 3
+	b = 30
+	c = 36
+	d = 0
+	e = 42
+	f = 39
+	g = 9
+	h = 33
+	i = 15
+	j = 18
+	k = 6
+	l = 12
+	m = 27
+	n = 24
+	o = 21
+
+left index finger horizontal location (ruler# 2): L15cm
+	22.5
+right index finger horizontal location (ruler# 2): L15cm
+	33.0
+***** L27cm *****
+Perceived spacing - horizontal: L27cm
+Subject selected: E
+Subject answer = 30.0 uncrossed
+Subject answer = 30
+CHART:
+	a = 9
+	b = 36
+	c = 12
+	d = 18
+	e = 30
+	f = 0
+	g = 27
+	h = 6
+	i = 39
+	j = 21
+	k = 33
+	l = 24
+	m = 42
+	n = 15
+	o = 3
+
+left index finger horizontal location (ruler# 1): L27cm
+	16.5
+right index finger horizontal location (ruler# 1): L27cm
+	34.5
+***** R15cm *****
+Perceived spacing - horizontal: R15cm
+Subject selected: L
+Subject answer = 6.0 crossed
+Subject answer = -6
+CHART:
+	a = 21
+	b = 39
+	c = 42
+	d = 36
+	e = 15
+	f = 18
+	g = 33
+	h = 24
+	i = 3
+	j = 12
+	k = 27
+	l = 6
+	m = 9
+	n = 0
+	o = 30
+
+left index finger horizontal location (ruler# 5): R15cm
+	42.0
+right index finger horizontal location (ruler# 5): R15cm
+	34.5
+***** R15cm *****
+Perceived spacing - horizontal: R15cm
+Subject selected: K
+Subject answer = 9.0 crossed
+Subject answer = -9
+CHART:
+	a = 30
+	b = 42
+	c = 18
+	d = 36
+	e = 3
+	f = 27
+	g = 24
+	h = 21
+	i = 12
+	j = 15
+	k = 9
+	l = 6
+	m = 0
+	n = 33
+	o = 39
+
+left index finger horizontal location (ruler# 7): R15cm
+	43.5
+right index finger horizontal location (ruler# 7): R15cm
+	34.5
+***** L15cm *****
+Perceived spacing - horizontal: L15cm
+Subject selected: F
+Subject answer = 12.0 uncrossed
+Subject answer = 12
+CHART:
+	a = 39
+	b = 30
+	c = 36
+	d = 21
+	e = 9
+	f = 12
+	g = 6
+	h = 24
+	i = 15
+	j = 3
+	k = 0
+	l = 42
+	m = 33
+	n = 18
+	o = 27
+
+left index finger horizontal location (ruler# 3): L15cm
+	24.0
+right index finger horizontal location (ruler# 3): L15cm
+	33.0
+***** R27cm *****
+Perceived spacing - horizontal: R27cm
+Subject selected: L
+Subject answer = 12.0 crossed
+Subject answer = -12
+CHART:
+	a = 9
+	b = 3
+	c = 30
+	d = 6
+	e = 21
+	f = 42
+	g = 0
+	h = 18
+	i = 27
+	j = 36
+	k = 15
+	l = 12
+	m = 24
+	n = 33
+	o = 39
+
+left index finger horizontal location (ruler# 8): R27cm
+	51.0
+right index finger horizontal location (ruler# 8): R27cm
+	34.5
+***** L27cm *****
+Perceived spacing - horizontal: L27cm
+Subject selected: E
+Subject answer = 15.0 uncrossed
+Subject answer = 15
+CHART:
+	a = 27
+	b = 39
+	c = 42
+	d = 0
+	e = 15
+	f = 21
+	g = 33
+	h = 24
+	i = 3
+	j = 36
+	k = 9
+	l = 6
+	m = 30
+	n = 18
+	o = 12
+
+left index finger horizontal location (ruler# 6): L27cm
+	18.0
+right index finger horizontal location (ruler# 6): L27cm
+	33.0
+***** R27cm *****
+Perceived spacing - horizontal: R27cm
+Subject selected: O
+Subject answer = 12.0 uncrossed
+Subject answer = 12
+CHART:
+	a = 33
+	b = 3
+	c = 36
+	d = 6
+	e = 39
+	f = 27
+	g = 0
+	h = 24
+	i = 15
+	j = 30
+	k = 21
+	l = 9
+	m = 42
+	n = 18
+	o = 12
+
+left index finger horizontal location (ruler# 4): R27cm
+	49.5
+right index finger horizontal location (ruler# 4): R27cm
+	34.5

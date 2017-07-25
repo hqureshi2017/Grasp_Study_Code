@@ -1,0 +1,144 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-07-20 09:36:34
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/horizGraspData/sub28A/sub28A_log.txt
+		/home/neura/Desktop/horizGraspData/sub28A/sub28A_summary.txt
+		/home/neura/Desktop/horizGraspData/sub28A/sub28A_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+grasp
+-----
+***** 24cm *****
+Video played for 3 min.
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-07-20 09:37:23
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/horizGraspData/sub28A/sub28A_log.txt
+		/home/neura/Desktop/horizGraspData/sub28A/sub28A_summary.txt
+		/home/neura/Desktop/horizGraspData/sub28A/sub28A_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+--------
+no grasp
+--------
+***** -24cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: -24cm
+Subject selected: K
+Subject answer = 30.0 crossed
+Subject answer = -30
+CHART:
+	a = 21
+	b = 33
+	c = 24
+	d = 12
+	e = 0
+	f = 27
+	g = 15
+	h = 3
+	i = 18
+	j = 39
+	k = 30
+	l = 42
+	m = 36
+	n = 9
+	o = 6
+
+left index finger horizontal location (ruler# 6): -24cm
+	31.5
+right index finger horizontal location (ruler# 6): -24cm
+	57.0
+***** -15cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: -15cm
+Subject selected: C
+Subject answer = 18.0 crossed
+Subject answer = -18
+CHART:
+	a = 27
+	b = 9
+	c = 18
+	d = 12
+	e = 15
+	f = 21
+	g = 33
+	h = 3
+	i = 30
+	j = 6
+	k = 36
+	l = 0
+	m = 24
+	n = 42
+	o = 39
+
+left index finger horizontal location (ruler# 3): -15cm
+	51.0
+right index finger horizontal location (ruler# 3): -15cm
+	30.0
+***** 15cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: 15cm
+Subject selected: F
+Subject answer = 12.0 uncrossed
+Subject answer = 12
+CHART:
+	a = 42
+	b = 3
+	c = 27
+	d = 6
+	e = 36
+	f = 12
+	g = 24
+	h = 18
+	i = 39
+	j = 30
+	k = 0
+	l = 9
+	m = 15
+	n = 21
+	o = 33
+
+left index finger horizontal location (ruler# 1): 15cm
+	21.0
+right index finger horizontal location (ruler# 1): 15cm
+	30.0
+***** 24cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: 24cm
+Subject selected: N
+Subject answer = 18.0 uncrossed
+Subject answer = 18
+CHART:
+	a = 9
+	b = 39
+	c = 24
+	d = 27
+	e = 12
+	f = 30
+	g = 36
+	h = 6
+	i = 42
+	j = 3
+	k = 0
+	l = 15
+	m = 33
+	n = 18
+	o = 21
+
+left index finger horizontal location (ruler# 5): 24cm
+	16.5
+right index finger horizontal location (ruler# 5): 24cm
+	31.5

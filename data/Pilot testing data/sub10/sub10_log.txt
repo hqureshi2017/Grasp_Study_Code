@@ -1,0 +1,51 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-24 13:17:58
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub10/sub10_log.txt
+		/home/martin/Desktop/horizGraspData/sub10/sub10_summary.txt
+		/home/martin/Desktop/horizGraspData/sub10/sub10_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L15cm *****
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-24 13:18:44
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub10/sub10_log.txt
+		/home/martin/Desktop/horizGraspData/sub10/sub10_summary.txt
+		/home/martin/Desktop/horizGraspData/sub10/sub10_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+grasp
+-----
+***** 24cm *****
+Video played for 3 min.
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-24 13:21:49
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub10/sub10_log.txt
+		/home/martin/Desktop/horizGraspData/sub10/sub10_summary.txt
+		/home/martin/Desktop/horizGraspData/sub10/sub10_data.txt
+	Writing experiment summary.
+Finished study setup.
+

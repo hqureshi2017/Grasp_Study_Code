@@ -1,0 +1,4 @@
+Sub ID:sub30
+Gender:F
+Handedness:R
+Age:54

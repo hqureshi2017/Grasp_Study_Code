@@ -1,0 +1,302 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-04 11:13:34
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/AB/AB_log.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_summary.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-04 11:20:43
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/AB/AB_log.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_summary.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-04 12:54:20
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/AB/AB_log.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_summary.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-04 12:55:38
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/AB/AB_log.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_summary.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+--------
+no grasp
+--------
+***** 15cm *****
+Video played for 3 min.
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-04 13:18:01
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/AB/AB_log.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_summary.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+--------
+no grasp
+--------
+***** -15cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: -15cm
+Subject selected: R
+Subject answer = 10.5 uncrossed
+Subject answer = 10.5
+CHART:
+	a = 22.5
+	b = 21.0
+	c = 16.5
+	d = 25.5
+	e = 7.5
+	f = 27.0
+	g = 30.0
+	h = 19.5
+	i = 13.5
+	j = 6.0
+	k = 4.5
+	l = 15.0
+	m = 12.0
+	n = 18.0
+	o = 0.0
+	p = 9.0
+	q = 28.5
+	r = 10.5
+	s = 24.0
+	t = 1.5
+	u = 3.0
+
+left index finger horizontal location (ruler# 5): -15cm
+	24.0
+right index finger horizontal location (ruler# 7): -15cm
+	31.5
+***** 24cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: 24cm
+Subject selected: M
+Subject answer = 18.0 uncrossed
+Subject answer = 18.0
+CHART:
+	a = 30.0
+	b = 25.5
+	c = 13.5
+	d = 28.5
+	e = 16.5
+	f = 21.0
+	g = 7.5
+	h = 0.0
+	i = 27.0
+	j = 4.5
+	k = 12.0
+	l = 1.5
+	m = 18.0
+	n = 15.0
+	o = 10.5
+	p = 3.0
+	q = 19.5
+	r = 6.0
+	s = 9.0
+	t = 22.5
+	u = 24.0
+
+left index finger horizontal location (ruler# 2): 24cm
+	16.5
+right index finger horizontal location (ruler# 1): 24cm
+	31.5
+***** -24cm *****
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-10 13:27:07
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/AB/AB_log.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_summary.txt
+		/home/martin/Desktop/horizGraspData/AB/AB_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+grasp
+-----
+***** 24cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: 24cm
+Subject selected: R
+Subject answer = 27.0 uncrossed
+Subject answer = 27.0
+CHART:
+	a = 10.5
+	b = 19.5
+	c = 0.0
+	d = 22.5
+	e = 28.5
+	f = 21.0
+	g = 13.5
+	h = 1.5
+	i = 16.5
+	j = 7.5
+	k = 25.5
+	l = 15.0
+	m = 18.0
+	n = 24.0
+	o = 6.0
+	p = 30.0
+	q = 9.0
+	r = 27.0
+	s = 3.0
+	t = 12.0
+	u = 4.5
+
+Perceived ownership: 24cm
+	somewhat agree
+left index finger horizontal location (ruler# 3): 24cm
+	12.0
+right index finger horizontal location (ruler# 4): 24cm
+	36.0
+***** -24cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: -24cm
+Subject selected: E
+Subject answer = 21.0 crossed
+Subject answer = -21.0
+CHART:
+	a = 24.0
+	b = 12.0
+	c = 13.5
+	d = 7.5
+	e = 21.0
+	f = 3.0
+	g = 0.0
+	h = 28.5
+	i = 18.0
+	j = 10.5
+	k = 6.0
+	l = 9.0
+	m = 19.5
+	n = 16.5
+	o = 4.5
+	p = 30.0
+	q = 25.5
+	r = 1.5
+	s = 22.5
+	t = 15.0
+	u = 27.0
+
+Perceived ownership: -24cm
+	somewhat agree
+left index finger horizontal location (ruler# 2): -24cm
+	33.0
+right index finger horizontal location (ruler# 1): -24cm
+	51.0
+***** 15cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: 15cm
+Subject selected: I
+Subject answer = 13.5 uncrossed
+Subject answer = 13.5
+CHART:
+	a = 10.5
+	b = 24.0
+	c = 21.0
+	d = 25.5
+	e = 1.5
+	f = 16.5
+	g = 9.0
+	h = 12.0
+	i = 13.5
+	j = 18.0
+	k = 27.0
+	l = 7.5
+	m = 15.0
+	n = 28.5
+	o = 19.5
+	p = 6.0
+	q = 22.5
+	r = 4.5
+	s = 3.0
+	t = 0.0
+	u = 30.0
+
+Perceived ownership: 15cm
+	somewhat agree
+left index finger horizontal location (ruler# 7): 15cm
+	36.0
+right index finger horizontal location (ruler# 6): 15cm
+	16.5
+***** -15cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: -15cm
+Subject selected: P
+Subject answer = 9.0 crossed
+Subject answer = -9.0
+CHART:
+	a = 10.5
+	b = 7.5
+	c = 30.0
+	d = 3.0
+	e = 15.0
+	f = 1.5
+	g = 13.5
+	h = 18.0
+	i = 24.0
+	j = 19.5
+	k = 4.5
+	l = 27.0
+	m = 25.5
+	n = 22.5
+	o = 12.0
+	p = 9.0
+	q = 16.5
+	r = 0.0
+	s = 6.0
+	t = 21.0
+	u = 28.5
+
+Perceived ownership: -15cm
+	somewhat agree
+left index finger horizontal location (ruler# 8): -15cm
+	49.5
+right index finger horizontal location (ruler# 5): -15cm
+	34.5

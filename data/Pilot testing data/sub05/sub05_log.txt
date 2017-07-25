@@ -1,0 +1,92 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-16 11:29:00
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub05/sub05_log.txt
+		/home/martin/Desktop/horizGraspData/sub05/sub05_summary.txt
+		/home/martin/Desktop/horizGraspData/sub05/sub05_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+grasp
+-----
+***** -24cm *****
+Video played for 3 min.
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-16 11:37:16
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub05/sub05_log.txt
+		/home/martin/Desktop/horizGraspData/sub05/sub05_summary.txt
+		/home/martin/Desktop/horizGraspData/sub05/sub05_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+grasp
+-----
+***** 24cm *****
+Video played for 3 min.
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-16 11:48:38
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub05/sub05_log.txt
+		/home/martin/Desktop/horizGraspData/sub05/sub05_summary.txt
+		/home/martin/Desktop/horizGraspData/sub05/sub05_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** R15cm *****
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-16 11:51:46
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub05/sub05_log.txt
+		/home/martin/Desktop/horizGraspData/sub05/sub05_summary.txt
+		/home/martin/Desktop/horizGraspData/sub05/sub05_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** R15cm *****
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-16 11:52:23
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub05/sub05_log.txt
+		/home/martin/Desktop/horizGraspData/sub05/sub05_summary.txt
+		/home/martin/Desktop/horizGraspData/sub05/sub05_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L7.5cm *****

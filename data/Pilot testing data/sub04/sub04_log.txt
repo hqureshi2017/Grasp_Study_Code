@@ -1,0 +1,21 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-09 15:45:02
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub04/sub04_log.txt
+		/home/martin/Desktop/horizGraspData/sub04/sub04_summary.txt
+		/home/martin/Desktop/horizGraspData/sub04/sub04_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** R15cm *****
+horizontal locValidation (ruler# 2, R15cm): R15cm
+	22.5cm
+***** L15cm *****

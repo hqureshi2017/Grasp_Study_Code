@@ -1,0 +1,4 @@
+Sub ID:sub12 
+Gender:F
+Handedness:R 
+Age:35

@@ -1,0 +1,1 @@
+The first R15 and R24 had to be redone due to the subject misunderstanding the spacing question. The subject was re tested for certain trials under sub12b. The data file has been updated for the first three measures (R15, L 15, R24) whilst 12b folder is retained. 

@@ -1,0 +1,377 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-04-26 14:19:34
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub02/sub02_log.txt
+		/home/martin/Desktop/horizGraspData/sub02/sub02_summary.txt
+		/home/martin/Desktop/horizGraspData/sub02/sub02_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+grasp
+-----
+***** -24cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: -24cm
+Subject selected: C
+Subject answer = 30.0 crossed
+Subject answer = -30.0
+CHART:
+	a = 16.5
+	b = 18.0
+	c = 30.0
+	d = 10.5
+	e = 13.5
+	f = 0.0
+	g = 7.5
+	h = 4.5
+	i = 12.0
+	j = 22.5
+	k = 28.5
+	l = 15.0
+	m = 19.5
+	n = 1.5
+	o = 6.0
+	p = 3.0
+	q = 25.5
+	r = 21.0
+	s = 24.0
+	t = 9.0
+	u = 27.0
+
+Perceived ownership: -24cm
+	somewhat disagree
+left index finger horizontal location (ruler# 4): -24cm
+	0.0
+right index finger horizontal location (ruler# 8): -24cm
+	9.0
+***** 15cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: 15cm
+Subject selected: S
+Subject answer = 0.0 together
+Subject answer = 0.0
+CHART:
+	a = 25.5
+	b = 22.5
+	c = 27.0
+	d = 15.0
+	e = 6.0
+	f = 13.5
+	g = 4.5
+	h = 9.0
+	i = 28.5
+	j = 7.5
+	k = 21.0
+	l = 18.0
+	m = 16.5
+	n = 12.0
+	o = 1.5
+	p = 30.0
+	q = 10.5
+	r = 3.0
+	s = 0.0
+	t = 24.0
+	u = 19.5
+
+Perceived ownership: 15cm
+	somewhat disagree
+left index finger horizontal location (ruler# 3): 15cm
+	0.0
+right index finger horizontal location (ruler# 2): 15cm
+	0.0
+***** -15cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: -15cm
+Subject selected: B
+Subject answer = 28.5 uncrossed
+Subject answer = 28.5
+CHART:
+	a = 4.5
+	b = 28.5
+	c = 13.5
+	d = 7.5
+	e = 24.0
+	f = 10.5
+	g = 27.0
+	h = 6.0
+	i = 0.0
+	j = 21.0
+	k = 1.5
+	l = 16.5
+	m = 30.0
+	n = 22.5
+	o = 15.0
+	p = 19.5
+	q = 12.0
+	r = 3.0
+	s = 18.0
+	t = 25.5
+	u = 9.0
+
+Perceived ownership: -15cm
+	strongly disagree
+left index finger horizontal location (ruler# 5): -15cm
+	0.0
+right index finger horizontal location (ruler# 1): -15cm
+	0.0
+***** 24cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: 24cm
+Subject selected: O
+Subject answer = 0.0 together
+Subject answer = 0.0
+CHART:
+	a = 18.0
+	b = 27.0
+	c = 7.5
+	d = 15.0
+	e = 22.5
+	f = 25.5
+	g = 10.5
+	h = 12.0
+	i = 16.5
+	j = 13.5
+	k = 19.5
+	l = 28.5
+	m = 3.0
+	n = 1.5
+	o = 0.0
+	p = 6.0
+	q = 30.0
+	r = 4.5
+	s = 9.0
+	t = 24.0
+	u = 21.0
+
+Perceived ownership: 24cm
+	neither agree or disagree
+left index finger horizontal location (ruler# 7): 24cm
+	0.0
+right index finger horizontal location (ruler# 6): 24cm
+	0.0
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-04-26 14:32:56
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub02/sub02_log.txt
+		/home/martin/Desktop/horizGraspData/sub02/sub02_summary.txt
+		/home/martin/Desktop/horizGraspData/sub02/sub02_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+--------
+no grasp
+--------
+***** -15cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: -15cm
+Subject selected: I
+Subject answer = 30.0 crossed
+Subject answer = -30.0
+CHART:
+	a = 24.0
+	b = 27.0
+	c = 19.5
+	d = 12.0
+	e = 18.0
+	f = 0.0
+	g = 22.5
+	h = 28.5
+	i = 30.0
+	j = 15.0
+	k = 13.5
+	l = 10.5
+	m = 6.0
+	n = 7.5
+	o = 25.5
+	p = 4.5
+	q = 16.5
+	r = 21.0
+	s = 9.0
+	t = 3.0
+	u = 1.5
+
+left index finger horizontal location (ruler# 5): -15cm
+	0.0
+right index finger horizontal location (ruler# 6): -15cm
+	0.0
+***** 24cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: 24cm
+Subject selected: R
+Subject answer = 28.5 uncrossed
+Subject answer = 28.5
+CHART:
+	a = 16.5
+	b = 13.5
+	c = 4.5
+	d = 10.5
+	e = 0.0
+	f = 25.5
+	g = 18.0
+	h = 19.5
+	i = 9.0
+	j = 21.0
+	k = 27.0
+	l = 22.5
+	m = 15.0
+	n = 12.0
+	o = 6.0
+	p = 1.5
+	q = 24.0
+	r = 28.5
+	s = 3.0
+	t = 7.5
+	u = 30.0
+
+left index finger horizontal location (ruler# 8): 24cm
+	0.0
+right index finger horizontal location (ruler# 4): 24cm
+	0.0
+***** -24cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: -24cm
+Subject selected: E
+Subject answer = 30.0 crossed
+Subject answer = -30.0
+CHART:
+	a = 1.5
+	b = 0.0
+	c = 15.0
+	d = 18.0
+	e = 30.0
+	f = 21.0
+	g = 13.5
+	h = 25.5
+	i = 24.0
+	j = 3.0
+	k = 12.0
+	l = 16.5
+	m = 6.0
+	n = 19.5
+	o = 22.5
+	p = 4.5
+	q = 7.5
+	r = 27.0
+	s = 10.5
+	t = 9.0
+	u = 28.5
+
+left index finger horizontal location (ruler# 3): -24cm
+	0.0
+right index finger horizontal location (ruler# 7): -24cm
+	0.0
+***** 15cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: 15cm
+Subject selected: G
+Subject answer = 0.0 together
+Subject answer = 0.0
+CHART:
+	a = 19.5
+	b = 13.5
+	c = 18.0
+	d = 6.0
+	e = 9.0
+	f = 7.5
+	g = 0.0
+	h = 28.5
+	i = 15.0
+	j = 4.5
+	k = 3.0
+	l = 27.0
+	m = 22.5
+	n = 30.0
+	o = 24.0
+	p = 16.5
+	q = 1.5
+	r = 12.0
+	s = 10.5
+	t = 25.5
+	u = 21.0
+
+left index finger horizontal location (ruler# 1): 15cm
+	0.0
+right index finger horizontal location (ruler# 2): 15cm
+	0.0
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-04-26 14:40:09
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub02/sub02_log.txt
+		/home/martin/Desktop/horizGraspData/sub02/sub02_summary.txt
+		/home/martin/Desktop/horizGraspData/sub02/sub02_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L15cm *****
+horizontal locValidation (ruler# 5, L15cm): L15cm
+	16.5cm
+***** R7.5cm *****
+horizontal locValidation (ruler# 1, R7.5cm): R7.5cm
+	6.0cm
+***** L15cm *****
+horizontal locValidation (ruler# 5, L15cm): L15cm
+	21.0cm
+***** R15cm *****
+horizontal locValidation (ruler# 2, R15cm): R15cm
+	28.5cm
+***** R7.5cm *****
+horizontal locValidation (ruler# 1, R7.5cm): R7.5cm
+	27.0cm
+***** R15cm *****
+horizontal locValidation (ruler# 2, R15cm): R15cm
+	12.0cm
+***** R7.5cm *****
+horizontal locValidation (ruler# 1, R7.5cm): R7.5cm
+	28.5cm
+***** L27cm *****
+horizontal locValidation (ruler# 6, L27cm): L27cm
+	30.0cm
+***** L15cm *****
+horizontal locValidation (ruler# 5, L15cm): L15cm
+	12.0cm
+***** L27cm *****
+horizontal locValidation (ruler# 6, L27cm): L27cm
+	16.5cm
+***** R27cm *****
+horizontal locValidation (ruler# 3, R27cm): R27cm
+	18.0cm
+***** R27cm *****
+horizontal locValidation (ruler# 3, R27cm): R27cm
+	24.0cm
+***** R15cm *****
+horizontal locValidation (ruler# 2, R15cm): R15cm
+	13.5cm
+***** L7.5cm *****
+horizontal locValidation (ruler# 4, L7.5cm): L7.5cm
+	16.5cm
+***** L27cm *****
+horizontal locValidation (ruler# 6, L27cm): L27cm
+	3.0cm
+***** R27cm *****
+horizontal locValidation (ruler# 3, R27cm): R27cm
+	9.0cm
+***** L7.5cm *****
+horizontal locValidation (ruler# 4, L7.5cm): L7.5cm
+	22.5cm
+***** L7.5cm *****
+horizontal locValidation (ruler# 4, L7.5cm): L7.5cm
+	1.5cm
