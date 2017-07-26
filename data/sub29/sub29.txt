@@ -1,4 +1,4 @@
-Sub ID:
-Gender:
-Handedness:
-Age:
+Sub ID:sub29
+Gender:M
+Handedness:L
+Age:28
