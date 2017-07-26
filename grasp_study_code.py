@@ -172,24 +172,24 @@ for sub_num in subjects:
                 elif cond.split("_")[2] == "LEFT":
                     # !! Problem. It's picking up validation location measures too
                      if cond.split("_")[4] == "15CM":
-                         grasp_uc15cm_l.append(ans)
+                         grasp_uc15cm_l.append(float(ans))
                      elif cond.split("_")[4] == "24CM":
-                         grasp_uc24cm_l.append(ans)
+                         grasp_uc24cm_l.append(float(ans))
                      elif cond.split("_")[4] == "-15CM":
-                         grasp_c15cm_l.append(int(ans))
+                         grasp_c15cm_l.append(float(ans))
                      else:
                          cond.split("_")[4] == "-24CM"
-                         grasp_c24cm_l.append(ans) 
+                         grasp_c24cm_l.append(float(ans)) 
                 elif cond.split("_")[2] == "RIGHT":
                      if cond.split("_")[4] == "15CM":
-                         grasp_uc15cm_r.append(ans)
+                         grasp_uc15cm_r.append(float(ans))
                      elif cond.split("_")[4] == "24CM":
-                         grasp_uc24cm_r.append(ans)
+                         grasp_uc24cm_r.append(float(ans))
                      elif cond.split("_")[4] == "-15CM":
-                         grasp_c15cm_r.append(ans)
+                         grasp_c15cm_r.append(float(ans))
                      else:
                          cond.split("_")[4] == "-24CM"
-                         grasp_c24cm_r.append(ans) 
+                         grasp_c24cm_r.append(float(ans))
                 else:
                     False
                      
@@ -232,7 +232,8 @@ d = { 'age': pd.Series(age),
       'val_L24cm': pd.Series(val_L24cm),
       'val_L15cm': pd.Series(val_L15cm)}
 #%%
-df = pd.DataFrame(d)   
+df = pd.DataFrame(d)
+print(df[0:][0:30])   
 
 x = sum(val_L15cm)
 y = len(val_L15cm)
@@ -243,31 +244,30 @@ y = len(val_L15cm)
 #%% Dataframes per measure
 # Now, need to do the below too. 
                  
-spacing = {'grasp_c15cm_sp': pd.Series(grasp_c15cm_sp),
-           'grasp_uc15cm_sp': pd.Series(grasp_uc15cm_sp),
-           'grasp_uc24cm_sp': pd.Series(grasp_uc24cm_sp),
-           'grasp_c24cm_sp': pd.Series(grasp_c24cm_sp)}
+spacing = {'L24': pd.Series(grasp_uc24cm_sp),
+           'L15': pd.Series(grasp_uc15cm_sp),
+           'R15': pd.Series(grasp_c15cm_sp),
+           'R24': pd.Series(grasp_c24cm_sp)}
 df_spacing = pd.DataFrame(spacing)
 
-    col = spacing.columns
-    new_col = [col[2],col[3],col[8],col[0]]
-    df_spacing1 = df_spacing[new_col]
 
-ownership = {'grasp_uc15cm_own': pd.Series(grasp_uc15cm_own),
-           'grasp_uc24cm_own': pd.Series(grasp_uc24cm_own),
-           'grasp_c15cm_own': pd.Series(grasp_c15cm_own),
-           'grasp_c24cm_own': pd.Series(grasp_c24cm_own)}
+ownership = {'L24': pd.Series(grasp_uc24cm_own),
+             'L15': pd.Series(grasp_uc15cm_own),
+             'R15': pd.Series(grasp_c15cm_own),
+             'R24': pd.Series(grasp_c24cm_own)}
 df_ownership = pd.DataFrame(ownership)
     
-        R24 = df_ownership.grasp_c24cm_own.mean()
-        R15 = df_ownership.grasp_c15cm_own.mean()
-        L24 = df_ownership.grasp_uc24cm_own.mean()
-        L15 = df_ownership.grasp_uc15cm_own.mean()
-
-
-left = {'grasp_c15cm_l': pd.Series(grasp_c15cm_l),
-        'grasp_uc15cm_l': pd.Series(grasp_uc15cm_l),
-        'grasp_uc24cm_l': pd.Series(grasp_uc24cm_l),
-        'grasp_c24cm_l': pd.Series(grasp_c24cm_l)}
+        
+left = {'R15': pd.Series(grasp_c15cm_l),
+        'L15': pd.Series(grasp_uc15cm_l),
+        'L24': pd.Series(grasp_uc24cm_l),
+        'R24': pd.Series(grasp_c24cm_l)}
 df_left = pd.DataFrame(left)
+
+right = {'R15': pd.Series(grasp_c15cm_r),
+        'L15': pd.Series(grasp_uc15cm_r),
+        'L24': pd.Series(grasp_uc24cm_r),
+        'R24': pd.Series(grasp_c24cm_r)}
+df_right = pd.DataFrame(right)
+
 #%%
