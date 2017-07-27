@@ -1,3 +1,11 @@
+# ------------------MARTY --------------------
+# Not sure what program you are using, but it
+# keeps on adding author info. This will keep
+# on getting longer and longer and is somewhat
+# ugly. See if you can disactivate this
+# functionality in your editor.
+# ----------------------------------------------
+
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jul 25 13:48:18 2017
@@ -89,12 +97,25 @@ for sub_num in subjects:
     handedness.append(str(sub_info[2].strip()[-1:]))
     indexes.append(sub)
     #    I used the above method. It seems to work. Is the method below better?
+
+    # ------------------MARTY --------------------
+    # Have you tried the code below? It does not work.
+    # That is because it uses .loc(), which belongs to
+    # pandas.
+    # ----------------------------------------------
     '''
     age.append(sub_info.loc['Age', [1]][1])
     gender.append(sub_info.loc['Gender', [1]][1])
     handedness.append(sub_info.loc['Handedness', [1]][1])
     '''
-    # Dataframe for the sub info            
+
+    # ------------------MARTY --------------------
+    # I am not clear why you create the dataframe here.
+    # This means the dataframe is create each time
+    # though the loop (i.e., for each subject).
+    # ----------------------------------------------
+
+    # Dataframe for the sub info
     exp1 = pd.DataFrame({'age': age,
                          'gender': gender,
                          'handedness': handedness})
@@ -124,7 +145,13 @@ for sub_num in subjects:
     #val.plot()
 
     # Averages
-  
+
+    # ------------------MARTY --------------------
+    # I am not clear why you calculate this in the loop.
+    # Would it not be better to get all the data and
+    # then calculate summary statistics?
+    # ----------------------------------------------
+
     R24 = val.R24.mean()
     R15 = val.R15.mean()
     L24 = val.L24.mean()
@@ -135,8 +162,36 @@ for sub_num in subjects:
     #L24 = df_ownership.grasp_uc24cm_own.mean()
     #L15 = df_ownership.grasp_uc15cm_own.mean()
 
+    # ------------------MARTY --------------------
+    # Not clear how this single calculation is our
+    # measure of horizontal drift.
+    # ----------------------------------------------
     val['horizontal diff'] = val.L15 - val.L24
-    
+
+    # ------------------MARTY --------------------
+    # I am not clear why you are looping through this
+    # file a second time. You should be able to parse
+    # the entire file, line by line, in only one pass.
+    # There is not nead to loop through it once for
+    # the validation data and then for the grasp/
+    # no-grasp data.
+    # The key is keeping track of which block you are
+    # currently in (Validation, grasp, no-grasp)
+    # and parsing the data based on that.
+    #
+    # You don't ever use:
+    # if current_block == 'VALIDATION':
+    #       <code>
+    # elif current_block == 'GRASP':
+    #       <code>
+    # elif current_block == 'NO_GRASP':
+    #       <code>
+    #
+    # This is needed in order to ensure the data
+    # is being stored in the correct list.
+    #
+    # See if you can figure this out.
+    # ----------------------------------------------
 
     # Two problems: i. it gets both grasp and no grasp condition !!!
     with open(data_long) as file:
