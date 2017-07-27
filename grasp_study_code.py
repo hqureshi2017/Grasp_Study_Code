@@ -4,28 +4,10 @@
 # on getting longer and longer and is somewhat
 # ugly. See if you can disactivate this
 # functionality in your editor.
-# ----------------------------------------------
+# 
+#----------------- Hassan -----------------------
+# Using Spyder. Not sure how to get rid of it.  
 
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 25 13:48:18 2017
-
-@author: h.qureshi
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 13 11:21:29 2017
-
-@author: h.qureshi
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 13 08:20:30 2017
-
-@author: Hassan
-"""
 
 #from cumming_plot import cumming_plot
 import pandas as pd
@@ -102,28 +84,21 @@ for sub_num in subjects:
     # Have you tried the code below? It does not work.
     # That is because it uses .loc(), which belongs to
     # pandas.
-    # ----------------------------------------------
+    # ------------------ Hassan  ------------------
+    # No, haven't run it. I have used the code above. I just left it there 
+    # because I wasn't sure if it was a better way of doing it and hoping to
+    # discuss it later. 
+    # --------------------------------------------
     '''
     age.append(sub_info.loc['Age', [1]][1])
     gender.append(sub_info.loc['Gender', [1]][1])
     handedness.append(sub_info.loc['Handedness', [1]][1])
     '''
 
-    # ------------------MARTY --------------------
-    # I am not clear why you create the dataframe here.
-    # This means the dataframe is create each time
-    # though the loop (i.e., for each subject).
-    # ----------------------------------------------
-
-    # Dataframe for the sub info
-    exp1 = pd.DataFrame({'age': age,
-                         'gender': gender,
-                         'handedness': handedness})
-
    
     # Import Validation data from experiment
     data_long = os.path.join('.', 'data', sub, sub + '_data.txt')
-    
+    '''    
     with open(data_long) as file:
         #print(data_long)
     # data = file.readlines()
@@ -136,37 +111,7 @@ for sub_num in subjects:
                 val_L24cm.append(int(line.split(':')[1]))
             if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_R24CM':
                 val_R24cm.append(int(line.split(':')[1]))
-    
-    #DataFrame for validation data
-    val = pd.DataFrame({'L24':val_L24cm,
-                        'L15':val_L15cm,
-                        'R15':val_R15cm,
-                        'R24':val_R24cm})
-    #val.plot()
-
-    # Averages
-
-    # ------------------MARTY --------------------
-    # I am not clear why you calculate this in the loop.
-    # Would it not be better to get all the data and
-    # then calculate summary statistics?
-    # ----------------------------------------------
-
-    R24 = val.R24.mean()
-    R15 = val.R15.mean()
-    L24 = val.L24.mean()
-    L15 = val.L15.mean()
-    
-    #R24 = df_ownership.grasp_c24cm_own.mean()
-    #R15 = df_ownership.grasp_c15cm_own.mean()
-    #L24 = df_ownership.grasp_uc24cm_own.mean()
-    #L15 = df_ownership.grasp_uc15cm_own.mean()
-
-    # ------------------MARTY --------------------
-    # Not clear how this single calculation is our
-    # measure of horizontal drift.
-    # ----------------------------------------------
-    val['horizontal diff'] = val.L15 - val.L24
+                '''    
 
     # ------------------MARTY --------------------
     # I am not clear why you are looping through this
@@ -193,62 +138,136 @@ for sub_num in subjects:
     # See if you can figure this out.
     # ----------------------------------------------
 
-    # Two problems: i. it gets both grasp and no grasp condition !!!
+    
+    # ----------HASSAN ----------------
+    # Is the code below what you meant? 
+    # Although it doesn't seem to work. Where am I messing up?
+    # --------------------------------
+
     with open(data_long) as file:
         print(data_long)
         for line in file:
             if line.split(":")[0] == 'BLOCK':
                 current_block = line.split(":")[1]
-            elif line.split(":")[0] == 'TRIAL':
-                current_trial = line.split(":")[1] 
-            else:
-                ans = line.split(":")[1]
-                cond = line.split(":")[0]
-                if cond.split("_")[1] == "SPACING":
-                     if cond.split("_")[2] == "15CM":
-                         grasp_uc15cm_sp.append(int(ans))
-                     elif cond.split("_")[2] == "24CM":
-                         grasp_uc24cm_sp.append(int(ans))
-                     elif cond.split("_")[2] == "-15CM":
-                         grasp_c15cm_sp.append(int(ans))
-                     else:
-                         cond.split("_")[2] == "-24CM"
-                         grasp_c24cm_sp.append(int(ans))
-                elif cond.split("_")[1] == "OWNERSHIP":
-                     if cond.split("_")[2] == "15CM":
-                         grasp_uc15cm_own.append(int(ans))
-                     elif cond.split("_")[2] == "24CM":
-                         grasp_uc24cm_own.append(int(ans))
-                     elif cond.split("_")[2] == "-15CM":
-                         grasp_c15cm_own.append(int(ans))
-                     else:
-                         cond.split("_")[2] == "-24CM"
-                         grasp_c24cm_own.append(int(ans))
-                elif cond.split("_")[2] == "LEFT":
-                    # !! Problem. It's picking up validation location measures too
-                     if cond.split("_")[4] == "15CM":
-                         grasp_uc15cm_l.append(float(ans))
-                     elif cond.split("_")[4] == "24CM":
-                         grasp_uc24cm_l.append(float(ans))
-                     elif cond.split("_")[4] == "-15CM":
-                         grasp_c15cm_l.append(float(ans))
-                     else:
-                         cond.split("_")[4] == "-24CM"
-                         grasp_c24cm_l.append(float(ans)) 
-                elif cond.split("_")[2] == "RIGHT":
-                     if cond.split("_")[4] == "15CM":
-                         grasp_uc15cm_r.append(float(ans))
-                     elif cond.split("_")[4] == "24CM":
-                         grasp_uc24cm_r.append(float(ans))
-                     elif cond.split("_")[4] == "-15CM":
-                         grasp_c15cm_r.append(float(ans))
-                     else:
-                         cond.split("_")[4] == "-24CM"
-                         grasp_c24cm_r.append(float(ans))
+                if current_block == "VALIDATION":
+                    if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_R15CM':
+                        val_R15cm.append(int(line.split(':')[1]))
+                    elif (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_L15CM':
+                        val_L15cm.append(int(line.split(':')[1]))
+                    elif (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_L24CM':
+                        val_L24cm.append(int(line.split(':')[1]))
+                    else:
+                        (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_R24CM'
+                        val_R24cm.append(int(line.split(':')[1]))
+                elif current_block == 'GRASP':
+                    ans = line.split(":")[1]
+                    cond = line.split(":")[0]
+                    if cond.split("_")[1] == "SPACING":
+                        if cond.split("_")[2] == "15CM":
+                            grasp_uc15cm_sp.append(int(ans))
+                        elif cond.split("_")[2] == "24CM":
+                            grasp_uc24cm_sp.append(int(ans))
+                        elif cond.split("_")[2] == "-15CM":
+                            grasp_c15cm_sp.append(int(ans))
+                        else:
+                             cond.split("_")[2] == "-24CM"
+                             grasp_c24cm_sp.append(int(ans))
+                    elif cond.split("_")[1] == "OWNERSHIP":
+                         if cond.split("_")[2] == "15CM":
+                             grasp_uc15cm_own.append(int(ans))
+                         elif cond.split("_")[2] == "24CM":
+                             grasp_uc24cm_own.append(int(ans))
+                         elif cond.split("_")[2] == "-15CM":
+                             grasp_c15cm_own.append(int(ans))
+                         else:
+                             cond.split("_")[2] == "-24CM"
+                             grasp_c24cm_own.append(int(ans))
+                    elif cond.split("_")[2] == "LEFT":
+                         if cond.split("_")[4] == "15CM":
+                             grasp_uc15cm_l.append(float(ans))
+                         elif cond.split("_")[4] == "24CM":
+                             grasp_uc24cm_l.append(float(ans))
+                         elif cond.split("_")[4] == "-15CM":
+                             grasp_c15cm_l.append(float(ans))
+                         else:
+                             cond.split("_")[4] == "-24CM"
+                             grasp_c24cm_l.append(float(ans)) 
+                    else:
+                        cond.split("_")[2] == "RIGHT"
+                        if cond.split("_")[4] == "15CM":
+                            grasp_uc15cm_r.append(float(ans))
+                        elif cond.split("_")[4] == "24CM":
+                            grasp_uc24cm_r.append(float(ans))
+                        elif cond.split("_")[4] == "-15CM":
+                            grasp_c15cm_r.append(float(ans))
+                        else:
+                            cond.split("_")[4] == "-24CM"
+                            grasp_c24cm_r.append(float(ans))
                 else:
-                    False
-                     
+                    current_block == 'NO GRASP'
+                    ans = line.split(":")[1]
+                    cond = line.split(":")[0]
+                    if cond.split("_")[1] == "SPACING":
+                        if cond.split("_")[2] == "15CM":
+                            nograsp_uc15cm_sp.append(int(ans))
+                        elif cond.split("_")[2] == "24CM":
+                            nograsp_uc24cm_sp.append(int(ans))
+                        elif cond.split("_")[2] == "-15CM":
+                            nograsp_c15cm_sp.append(int(ans))
+                        else:
+                            cond.split("_")[2] == "-24CM"
+                            nograsp_c24cm_sp.append(int(ans))
+                    elif cond.split("_")[2] == "LEFT":
+                         if cond.split("_")[4] == "15CM":
+                             nograsp_uc15cm_l.append(float(ans))
+                         elif cond.split("_")[4] == "24CM":
+                             nograsp_uc24cm_l.append(float(ans))
+                         elif cond.split("_")[4] == "-15CM":
+                             nograsp_c15cm_l.append(float(ans))
+                         else:
+                             cond.split("_")[4] == "-24CM"
+                             nograsp_c24cm_l.append(float(ans)) 
+                    else:
+                        cond.split("_")[2] == "RIGHT"
+                        if cond.split("_")[4] == "15CM":
+                            nograsp_uc15cm_r.append(float(ans))
+                        elif cond.split("_")[4] == "24CM":
+                           nograsp_uc24cm_r.append(float(ans))
+                        elif cond.split("_")[4] == "-15CM":
+                           nograsp_c15cm_r.append(float(ans))
+                        else:
+                           cond.split("_")[4] == "-24CM"
+                           nograsp_c24cm_r.append(float(ans))
+                    
+                    
+            else: 
+                False
+              
 
+# ------------------------------------------
+# Stats
+# ------------------------------------------                
+    R24 = val.R24.mean()
+    R15 = val.R15.mean()
+    L24 = val.L24.mean()
+    L15 = val.L15.mean()
+    
+    #R24 = df_ownership.grasp_c24cm_own.mean()
+    #R15 = df_ownership.grasp_c15cm_own.mean()
+    #L24 = df_ownership.grasp_uc24cm_own.mean()
+    #L15 = df_ownership.grasp_uc15cm_own.mean()
+    
+                    
+# Dataframe for the sub info
+    exp1 = pd.DataFrame({'age': age,
+                         'gender': gender,
+                         'handedness': handedness})
+                    
+#DataFrame for validation data
+    val = pd.DataFrame({'L24':val_L24cm,
+                        'L15':val_L15cm,
+                        'R15':val_R15cm,
+                        'R24':val_R24cm})
 
 # Dataframe for actual data
 d = { 'age': pd.Series(age),
