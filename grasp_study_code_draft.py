@@ -62,7 +62,7 @@ val_L15cm = []
 # List containing subject numbers (!! need to add others later!! )
 subjects = [1, 2]
 for sub_num in subjects:
-
+    
     # Load detailed file and extract subject age, gender and handeness
     if len(str(sub_num)) == 1:
         sub = 'mock' + '0' + str(sub_num)
@@ -82,7 +82,7 @@ for sub_num in subjects:
 # import data for subject info
     with open(info) as f:
         sub_info = f.readlines()
-    print(sub_info)
+        print(sub_info)
     age.append(int(sub_info[3].strip()[-2:]))
     gender.append(str(sub_info[1].strip()[-1:]))
     handedness.append(str(sub_info[2].strip()[-1:]))
