@@ -71,6 +71,7 @@ with open(info) as f:
     i = pd.read_csv(info)
 print(i)
 
+#Add the participant info into appropriate lists (?)
 age.append()
 gender.append()
 handedness.append()

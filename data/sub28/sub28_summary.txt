@@ -1,0 +1,70 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+ 
+----------
+validation
+----------
+R24cm
+	Perceived spacing - horizontal: R24cm
+	left index finger horizontal location (ruler# 3): R24cm
+	right index finger horizontal location (ruler# 3): R24cm
+R15cm
+	Perceived spacing - horizontal: R15cm
+	left index finger horizontal location (ruler# 7): R15cm
+	right index finger horizontal location (ruler# 7): R15cm
+R15cm
+	Perceived spacing - horizontal: R15cm
+	left index finger horizontal location (ruler# 6): R15cm
+	right index finger horizontal location (ruler# 6): R15cm
+R24cm
+	Perceived spacing - horizontal: R24cm
+	left index finger horizontal location (ruler# 8): R24cm
+	right index finger horizontal location (ruler# 8): R24cm
+L15cm
+	Perceived spacing - horizontal: L15cm
+	left index finger horizontal location (ruler# 2): L15cm
+	right index finger horizontal location (ruler# 2): L15cm
+L24cm
+	Perceived spacing - horizontal: L24cm
+	left index finger horizontal location (ruler# 5): L24cm
+	right index finger horizontal location (ruler# 5): L24cm
+L24cm
+	Perceived spacing - horizontal: L24cm
+	left index finger horizontal location (ruler# 4): L24cm
+	right index finger horizontal location (ruler# 4): L24cm
+L15cm
+	Perceived spacing - horizontal: L15cm
+	left index finger horizontal location (ruler# 1): L15cm
+	right index finger horizontal location (ruler# 1): L15cm
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+ 
+-----
+grasp
+-----
+-15cm
+	3 min Keaton video
+	Perceived spacing - horizontal: -15cm
+	Perceived ownership: -15cm
+	left index finger horizontal location (ruler# 1): -15cm
+	right index finger horizontal location (ruler# 1): -15cm
+24cm
+	3 min Keaton video
+	Perceived spacing - horizontal: 24cm
+	Perceived ownership: 24cm
+	left index finger horizontal location (ruler# 7): 24cm
+	right index finger horizontal location (ruler# 7): 24cm
+-24cm
+	3 min Keaton video
+	Perceived spacing - horizontal: -24cm
+	Perceived ownership: -24cm
+	left index finger horizontal location (ruler# 2): -24cm
+	right index finger horizontal location (ruler# 2): -24cm
+15cm
+	3 min Keaton video
+	Perceived spacing - horizontal: 15cm
+	Perceived ownership: 15cm
+	left index finger horizontal location (ruler# 4): 15cm
+	right index finger horizontal location (ruler# 4): 15cm

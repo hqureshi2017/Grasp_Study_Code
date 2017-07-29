@@ -1,0 +1,184 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-04-20 10:56:04
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub01/sub01_log.txt
+		/home/martin/Desktop/horizGraspData/sub01/sub01_summary.txt
+		/home/martin/Desktop/horizGraspData/sub01/sub01_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+grasp
+-----
+***** -15cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: -15cm
+Subject selected: G
+Subject answer = 12.0 uncrossed
+Subject answer = 12.0
+CHART:
+	a = 28.5
+	b = 22.5
+	c = 7.5
+	d = 27.0
+	e = 6.0
+	f = 30.0
+	g = 12.0
+	h = 1.5
+	i = 21.0
+	j = 16.5
+	k = 18.0
+	l = 4.5
+	m = 13.5
+	n = 25.5
+	o = 3.0
+	p = 0.0
+	q = 9.0
+	r = 15.0
+	s = 10.5
+	t = 19.5
+	u = 24.0
+
+Perceived ownership: -15cm
+	somewhat agree
+left index finger horizontal location (ruler# 6): -15cm
+	15.0
+right index finger horizontal location (ruler# 8): -15cm
+	36.0
+***** 24cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: 24cm
+Subject selected: K
+Subject answer = 12.0 crossed
+Subject answer = -12.0
+CHART:
+	a = 25.5
+	b = 19.5
+	c = 3.0
+	d = 30.0
+	e = 15.0
+	f = 7.5
+	g = 28.5
+	h = 6.0
+	i = 22.5
+	j = 1.5
+	k = 12.0
+	l = 21.0
+	m = 18.0
+	n = 13.5
+	o = 9.0
+	p = 10.5
+	q = 0.0
+	r = 27.0
+	s = 24.0
+	t = 4.5
+	u = 16.5
+
+Perceived ownership: 24cm
+	agree
+left index finger horizontal location (ruler# 5): 24cm
+	61.5
+right index finger horizontal location (ruler# 7): 24cm
+	-417.0
+***** 15cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: 15cm
+Subject selected: H
+Subject answer = 10.5 crossed
+Subject answer = -10.5
+CHART:
+	a = 16.5
+	b = 19.5
+	c = 21.0
+	d = 3.0
+	e = 27.0
+	f = 15.0
+	g = 4.5
+	h = 10.5
+	i = 6.0
+	j = 12.0
+	k = 18.0
+	l = 22.5
+	m = 28.5
+	n = 25.5
+	o = 1.5
+	p = 7.5
+	q = 13.5
+	r = 24.0
+	s = 9.0
+	t = 30.0
+	u = 0.0
+
+Perceived ownership: 15cm
+	disagree
+left index finger horizontal location (ruler# 4): 15cm
+	-450.0
+right index finger horizontal location (ruler# 2): 15cm
+	-160.5
+***** -24cm *****
+Video played for 0.1 min.
+Perceived spacing - horizontal: -24cm
+Subject selected: G
+Subject answer = 15.0 crossed
+Subject answer = -15.0
+CHART:
+	a = 1.5
+	b = 7.5
+	c = 4.5
+	d = 22.5
+	e = 3.0
+	f = 13.5
+	g = 15.0
+	h = 0.0
+	i = 25.5
+	j = 10.5
+	k = 19.5
+	l = 27.0
+	m = 6.0
+	n = 18.0
+	o = 21.0
+	p = 16.5
+	q = 28.5
+	r = 24.0
+	s = 12.0
+	t = 9.0
+	u = 30.0
+
+Perceived ownership: -24cm
+	disagree
+left index finger horizontal location (ruler# 3): -24cm
+	-357.0
+right index finger horizontal location (ruler# 1): -24cm
+	-18.0
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-04-20 11:15:03
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub01/sub01_log.txt
+		/home/martin/Desktop/horizGraspData/sub01/sub01_summary.txt
+		/home/martin/Desktop/horizGraspData/sub01/sub01_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L27cm *****
+horizontal locValidation (ruler# 6, L27cm): L27cm
+	6.0cm
+***** L27cm *****
+horizontal locValidation (ruler# 6, L27cm): L27cm
+	10.5cm
+***** R15cm *****
+horizontal locValidation (ruler# 2, R15cm): R15cm
+	3.0cm
+***** L27cm *****

@@ -1,0 +1,39 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-24 11:48:32
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/HQ_test/HQ_test_log.txt
+		/home/martin/Desktop/horizGraspData/HQ_test/HQ_test_summary.txt
+		/home/martin/Desktop/horizGraspData/HQ_test/HQ_test_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L27cm *****
+Perceived spacing - horizontal: L27cm
+Subject selected: E
+Subject answer = 15.0 uncrossed
+Subject answer = 15
+CHART:
+	a = 3
+	b = 18
+	c = 27
+	d = 21
+	e = 15
+	f = 9
+	g = 39
+	h = 24
+	i = 12
+	j = 33
+	k = 0
+	l = 30
+	m = 36
+	n = 6
+	o = 42
+

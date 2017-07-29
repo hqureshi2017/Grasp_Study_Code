@@ -1,0 +1,5 @@
+Prior to testing, the study folder was not found on the Desktop. Had to create new empty folder called 'horizGraspData' and create sub28A.
+
+During the exp, on the first trial of his No Grasp day (day 2), he changed his location answer after it had been entered. It was recorded on the testing sheet and ammended later. The original file has been retained as a copy. 
+
+Hassan 20.07.2017

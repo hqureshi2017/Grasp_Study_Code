@@ -1,0 +1,3 @@
+Mixed first and second validation measures (was suppose to be R24cm, but did L24cm). Therefore, the R24cm trial was done second and the subject responses were manually changed. The original files are available in the folder. 
+
+1 June, 2017  MH

@@ -1,0 +1,39 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+ 
+----------
+validation
+----------
+L27cm
+	Perceived spacing - horizontal: L27cm
+	left index finger horizontal location (ruler# 8): L27cm
+	right index finger horizontal location (ruler# 8): L27cm
+R27cm
+	Perceived spacing - horizontal: R27cm
+	left index finger horizontal location (ruler# 5): R27cm
+	right index finger horizontal location (ruler# 5): R27cm
+R15cm
+	Perceived spacing - horizontal: R15cm
+	left index finger horizontal location (ruler# 1): R15cm
+	right index finger horizontal location (ruler# 1): R15cm
+R27cm
+	Perceived spacing - horizontal: R27cm
+	left index finger horizontal location (ruler# 6): R27cm
+	right index finger horizontal location (ruler# 6): R27cm
+L15cm
+	Perceived spacing - horizontal: L15cm
+	left index finger horizontal location (ruler# 7): L15cm
+	right index finger horizontal location (ruler# 7): L15cm
+R15cm
+	Perceived spacing - horizontal: R15cm
+	left index finger horizontal location (ruler# 2): R15cm
+	right index finger horizontal location (ruler# 2): R15cm
+L15cm
+	Perceived spacing - horizontal: L15cm
+	left index finger horizontal location (ruler# 4): L15cm
+	right index finger horizontal location (ruler# 4): L15cm
+L27cm
+	Perceived spacing - horizontal: L27cm
+	left index finger horizontal location (ruler# 3): L27cm
+	right index finger horizontal location (ruler# 3): L27cm

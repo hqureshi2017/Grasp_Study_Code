@@ -1,0 +1,27 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+ 
+--------
+no grasp
+--------
+24cm
+	3 min Keaton video
+	Perceived spacing - horizontal: 24cm
+	left index finger horizontal location (ruler# 8): 24cm
+	right index finger horizontal location (ruler# 8): 24cm
+-15cm
+	3 min Keaton video
+	Perceived spacing - horizontal: -15cm
+	left index finger horizontal location (ruler# 3): -15cm
+	right index finger horizontal location (ruler# 3): -15cm
+15cm
+	3 min Keaton video
+	Perceived spacing - horizontal: 15cm
+	left index finger horizontal location (ruler# 1): 15cm
+	right index finger horizontal location (ruler# 1): 15cm
+-24cm
+	3 min Keaton video
+	Perceived spacing - horizontal: -24cm
+	left index finger horizontal location (ruler# 7): -24cm
+	right index finger horizontal location (ruler# 7): -24cm

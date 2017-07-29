@@ -1,0 +1,81 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-23 15:12:30
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub06/sub06_log.txt
+		/home/martin/Desktop/horizGraspData/sub06/sub06_summary.txt
+		/home/martin/Desktop/horizGraspData/sub06/sub06_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L7.5cm *****
+horizontal locValidation (ruler# 4, L7.5cm): L7.5cm
+	15cm
+***** L27cm *****
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-23 15:24:24
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub06/sub06_log.txt
+		/home/martin/Desktop/horizGraspData/sub06/sub06_summary.txt
+		/home/martin/Desktop/horizGraspData/sub06/sub06_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L7.5cm *****
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-23 15:27:04
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub06/sub06_log.txt
+		/home/martin/Desktop/horizGraspData/sub06/sub06_summary.txt
+		/home/martin/Desktop/horizGraspData/sub06/sub06_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L27cm *****
+horizontal locValidation (ruler# 6, L27cm): L27cm
+	30cm
+left index finger horizontal location (ruler# 5): L27cm
+	49.5
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-23 15:29:22
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub06/sub06_log.txt
+		/home/martin/Desktop/horizGraspData/sub06/sub06_summary.txt
+		/home/martin/Desktop/horizGraspData/sub06/sub06_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L27cm *****
+horizontal locValidation (ruler# 6, L27cm): L27cm
+	3cm

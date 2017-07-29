@@ -1,0 +1,4 @@
+Sub ID:sub18 
+Gender:F 
+Handedness:R 
+Age:26

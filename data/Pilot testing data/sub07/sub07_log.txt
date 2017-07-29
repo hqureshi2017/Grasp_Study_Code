@@ -1,0 +1,165 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-23 15:39:23
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub07/sub07_log.txt
+		/home/martin/Desktop/horizGraspData/sub07/sub07_summary.txt
+		/home/martin/Desktop/horizGraspData/sub07/sub07_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L7.5cm *****
+horizontal locValidation (ruler# 4, L7.5cm): L7.5cm
+	18cm
+left index finger horizontal location (ruler# 4): L7.5cm
+	27.0
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-05-23 15:50:11
+
+Starting study setup.
+	Creating:
+		/home/martin/Desktop/horizGraspData/sub07/sub07_log.txt
+		/home/martin/Desktop/horizGraspData/sub07/sub07_summary.txt
+		/home/martin/Desktop/horizGraspData/sub07/sub07_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L27cm *****
+horizontal locValidation (ruler# 6, L27cm): L27cm
+	24cm
+left index finger horizontal location (ruler# 4): L27cm
+	18.0
+right index finger horizontal location (ruler# 5): L27cm
+	33.0
+***** R27cm *****
+horizontal locValidation (ruler# 3, R27cm): R27cm
+	24cm
+left index finger horizontal location (ruler# 6): R27cm
+	63.0
+right index finger horizontal location (ruler# 2): R27cm
+	33.0
+***** R7.5cm *****
+horizontal locValidation (ruler# 1, R7.5cm): R7.5cm
+	24cm
+left index finger horizontal location (ruler# 3): R7.5cm
+	48.0
+right index finger horizontal location (ruler# 7): R7.5cm
+	30.0
+***** R27cm *****
+horizontal locValidation (ruler# 3, R27cm): R27cm
+	33cm
+left index finger horizontal location (ruler# 2): R27cm
+	63.0
+right index finger horizontal location (ruler# 6): R27cm
+	30.0
+***** R27cm *****
+horizontal locValidation (ruler# 3, R27cm): R27cm
+	30cm
+left index finger horizontal location (ruler# 7): R27cm
+	60.0
+right index finger horizontal location (ruler# 2): R27cm
+	33.0
+***** R7.5cm *****
+horizontal locValidation (ruler# 1, R7.5cm): R7.5cm
+	18cm
+left index finger horizontal location (ruler# 4): R7.5cm
+	40.5
+right index finger horizontal location (ruler# 6): R7.5cm
+	31.5
+***** L15cm *****
+horizontal locValidation (ruler# 5, L15cm): L15cm
+	12cm
+left index finger horizontal location (ruler# 8): L15cm
+	27.0
+right index finger horizontal location (ruler# 2): L15cm
+	31.5
+***** L15cm *****
+horizontal locValidation (ruler# 5, L15cm): L15cm
+	18cm
+left index finger horizontal location (ruler# 8): L15cm
+	22.5
+right index finger horizontal location (ruler# 7): L15cm
+	30.0
+***** R15cm *****
+horizontal locValidation (ruler# 2, R15cm): R15cm
+	27cm
+left index finger horizontal location (ruler# 5): R15cm
+	54.0
+right index finger horizontal location (ruler# 7): R15cm
+	30.0
+***** L7.5cm *****
+horizontal locValidation (ruler# 4, L7.5cm): L7.5cm
+	12cm
+left index finger horizontal location (ruler# 1): L7.5cm
+	27.0
+right index finger horizontal location (ruler# 4): L7.5cm
+	31.5
+***** L7.5cm *****
+horizontal locValidation (ruler# 4, L7.5cm): L7.5cm
+	15cm
+left index finger horizontal location (ruler# 1): L7.5cm
+	24.0
+right index finger horizontal location (ruler# 4): L7.5cm
+	31.5
+***** L27cm *****
+horizontal locValidation (ruler# 6, L27cm): L27cm
+	24cm
+left index finger horizontal location (ruler# 1): L27cm
+	13.5
+right index finger horizontal location (ruler# 5): L27cm
+	31.5
+***** R15cm *****
+horizontal locValidation (ruler# 2, R15cm): R15cm
+	27cm
+left index finger horizontal location (ruler# 1): R15cm
+	54.0
+right index finger horizontal location (ruler# 6): R15cm
+	30.0
+***** L15cm *****
+horizontal locValidation (ruler# 5, L15cm): L15cm
+	21cm
+left index finger horizontal location (ruler# 6): L15cm
+	21.0
+right index finger horizontal location (ruler# 5): L15cm
+	31.5
+***** L27cm *****
+horizontal locValidation (ruler# 6, L27cm): L27cm
+	30cm
+left index finger horizontal location (ruler# 8): L27cm
+	16.5
+right index finger horizontal location (ruler# 3): L27cm
+	33.0
+***** R15cm *****
+horizontal locValidation (ruler# 2, R15cm): R15cm
+	21cm
+left index finger horizontal location (ruler# 7): R15cm
+	49.5
+right index finger horizontal location (ruler# 8): R15cm
+	30.0
+***** L7.5cm *****
+horizontal locValidation (ruler# 4, L7.5cm): L7.5cm
+	21cm
+left index finger horizontal location (ruler# 4): L7.5cm
+	42.0
+right index finger horizontal location (ruler# 3): L7.5cm
+	31.5
+***** R7.5cm *****
+horizontal locValidation (ruler# 1, R7.5cm): R7.5cm
+	18cm
+left index finger horizontal location (ruler# 3): R7.5cm
+	40.5
+right index finger horizontal location (ruler# 8): R7.5cm
+	30.0

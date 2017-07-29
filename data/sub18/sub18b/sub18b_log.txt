@@ -1,0 +1,96 @@
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-07-03 15:14:41
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/horizGraspData/sub18b/sub18b_log.txt
+		/home/neura/Desktop/horizGraspData/sub18b/sub18b_summary.txt
+		/home/neura/Desktop/horizGraspData/sub18b/sub18b_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+----------
+validation
+----------
+***** L15cm *****
+Perceived spacing - horizontal: L15cm
+Subject selected: N
+Subject answer = 18.0 crossed
+Subject answer = -18
+CHART:
+	a = 6
+	b = 33
+	c = 36
+	d = 39
+	e = 27
+	f = 21
+	g = 3
+	h = 0
+	i = 24
+	j = 9
+	k = 30
+	l = 15
+	m = 42
+	n = 18
+	o = 12
+
+left index finger horizontal location (ruler# 2): L15cm
+	49.5
+right index finger horizontal location (ruler# 2): L15cm
+	34.5
+***** L24cm *****
+Perceived spacing - horizontal: L24cm
+Subject selected: A
+Subject answer = 33.0 crossed
+Subject answer = -33
+CHART:
+	a = 33
+	b = 18
+	c = 0
+	d = 39
+	e = 12
+	f = 27
+	g = 9
+	h = 42
+	i = 24
+	j = 3
+	k = 6
+	l = 21
+	m = 30
+	n = 15
+	o = 36
+
+left index finger horizontal location (ruler# 5): L24cm
+	61.5
+right index finger horizontal location (ruler# 5): L24cm
+	31.5
+***** R15cm *****
+Perceived spacing - horizontal: R15cm
+Subject selected: E
+Subject answer = 24.0 crossed
+Subject answer = -24
+CHART:
+	a = 0
+	b = 15
+	c = 3
+	d = 6
+	e = 24
+	f = 12
+	g = 30
+	h = 27
+	i = 33
+	j = 39
+	k = 36
+	l = 9
+	m = 42
+	n = 18
+	o = 21
+
+left index finger horizontal location (ruler# 7): R15cm
+	57.0
+right index finger horizontal location (ruler# 7): R15cm
+	33.0
+***** R24cm *****
