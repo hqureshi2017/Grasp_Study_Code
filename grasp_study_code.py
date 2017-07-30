@@ -84,7 +84,8 @@ for sub_num in subjects:
     
     # Import data from experiment
     data_long = os.path.join('.', 'data', sub, sub + '_data.txt')
-
+    
+    
     with open(data_long) as file:
         for line in file:
             ans = line.split(":")[1]
@@ -255,11 +256,9 @@ df['-24cm_grasp_vs_nograsp_sp'] = df.grasp_c24cm_sp - df.nograsp_c24cm_sp
 df['-24cm_grasp_vs_nograsp_r'] = df.grasp_c24cm_r - df.nograsp_c24cm_r
 df['-24cm_grasp_vs_nograsp_l'] = df.grasp_c24cm_l - df.nograsp_c24cm_l
 
-# Concatenate all data (HR, questionnaire, spacing, ownership)
-data = pd.concat([data, HR_quest], axis=1)
 
 
-'''
+
 
 # Dataframes per measure
                  
@@ -295,16 +294,21 @@ right = {'R15': pd.Series(grasp_c15cm_r),
         'R24': pd.Series(grasp_c24cm_r)}
 df_right = pd.DataFrame(right)
 
-
-
+            
+            
 #%%
-   
-            
-            
-
 # ------------------------------------------
 # Stats
 # ------------------------------------------                
+   
+for i in df:
+    if df[i].dtypes == 'float64':
+        print ('{:>20}  count = {:<2.0f}  mean = {:>5.2f}  SD = {:>5.2f}  95%CI = {:>3.2f} min = {:>3.0f}  max = {:>3.0f}'.
+               format(i, df[i].count(), df[i].mean(), df[i].std(), (df[i].std()/sqrt(len(df[i])))*1.96, df[i].min(), df[i].max()))
+
+
+
+
     R24 = val.R24.mean()
     R15 = val.R15.mean()
     L24 = val.L24.mean()
@@ -316,3 +320,6 @@ df_right = pd.DataFrame(right)
     #L15 = df_ownership.grasp_uc15cm_own.mean()
     
 #%%
+
+
+#   !! Need to plot !!
