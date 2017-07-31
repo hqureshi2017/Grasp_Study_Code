@@ -52,10 +52,15 @@ nograsp_uc24cm_sp = []
 nograsp_uc24cm_r = []
 nograsp_uc24cm_l = []
 indexes = []
-val_R24cm = []
-val_R15cm = []
-val_L24cm = []
-val_L15cm = []
+# TODO: Add conditionals for validation data
+val_R24cm_val1 = []
+val_R24cm_val2 = []
+val_R15cm_val1 = []
+val_R15cm_val2 = []
+val_L24cm_val1 = []
+val_L24cm_val2 = []
+val_L15cm_val1 = []
+val_L15cm_val2 = []
 
 
 # List containing subject numbers 
@@ -63,7 +68,10 @@ subjects = [1, 2, 3,4,5,7,8,9,10,
             11,12,13,14,15,16,17,18,19,20,
             21,22,23,24,25,26,27,28,29,30,31]
 for sub_num in subjects:
-
+    flag_R24 = False
+    flag_R15 = False
+    flag_L24 = False
+    flag_L15 = False
     # Load detailed file and extract subject age, gender and handeness
     if len(str(sub_num)) == 1:
         sub = 'sub' + '0' + str(sub_num)
@@ -104,7 +112,11 @@ for sub_num in subjects:
             elif (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_L24CM':
                 val_L24cm.append(int(line.split(':')[1]))
             elif (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_R24CM':
-                val_R24cm.append(int(line.split(':')[1]))
+                if not flag_R24:
+                    val_R24cm_val1.append(int(line.split(':')[1]))
+                    flag_R24 = True
+                elif flag_R24:
+                    val_R24cm_val2.append(int(line.split(':')[1]))
             
             #   SPACING MEASURE
             elif (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_15CM':
@@ -184,12 +196,14 @@ for sub_num in subjects:
          
                     
 # Dataframe for the sub info
-    exp1 = pd.DataFrame({'age': age,
+# TODO:  index rows with sub id
+exp1 = pd.DataFrame({'age': age,
                          'gender': gender,
                          'handedness': handedness})
                     
 #DataFrame for validation data
-    val = pd.DataFrame({'L24':val_L24cm,
+# TODO: Make dataframe with 30 rows and 4 columns; index rows with sub id
+val = pd.DataFrame({'L24':val_L24cm,
                         'L15':val_L15cm,
                         'R15':val_R15cm,
                         'R24':val_R24cm})
@@ -231,9 +245,11 @@ d = { 'age': pd.Series(age),
       #'val_L24cm': pd.Series(val_L24cm),
       #'val_L15cm': pd.Series(val_L15cm)
       }
-
+# TODO:  index rows with sub id
 df = pd.DataFrame(d)
 
+# Way to inspect dataframe
+print(df.to_string())
 
 # Convert gender and handedness to category
 df['gender'] = df['gender'].astype('category')
