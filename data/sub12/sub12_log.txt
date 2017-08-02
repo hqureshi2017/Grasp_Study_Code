@@ -356,3 +356,128 @@ left index finger horizontal location (ruler# 3): -24cm
 	48.0
 right index finger horizontal location (ruler# 3): -24cm
 	43.5
+-------------------------
+HORIZONTAL GRASP ILLUSION
+-------------------------
+
+2017-07-03 13:55:20
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/horizGraspData/sub12/sub12_log.txt
+		/home/neura/Desktop/horizGraspData/sub12/sub12_summary.txt
+		/home/neura/Desktop/horizGraspData/sub12/sub12_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+--------
+no grasp
+--------
+***** -15cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: -15cm
+Subject selected: J
+Subject answer = 18.0 uncrossed
+Subject answer = 18
+CHART:
+	a = 33
+	b = 9
+	c = 15
+	d = 27
+	e = 6
+	f = 21
+	g = 3
+	h = 0
+	i = 39
+	j = 18
+	k = 42
+	l = 24
+	m = 12
+	n = 30
+	o = 36
+
+left index finger horizontal location (ruler# 5): -15cm
+	46.5
+right index finger horizontal location (ruler# 5): -15cm
+	37.5
+***** 24cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: 24cm
+Subject selected: C
+Subject answer = 24.0 uncrossed
+Subject answer = 24
+CHART:
+	a = 15
+	b = 30
+	c = 24
+	d = 9
+	e = 0
+	f = 42
+	g = 18
+	h = 6
+	i = 39
+	j = 12
+	k = 36
+	l = 3
+	m = 33
+	n = 21
+	o = 27
+
+left index finger horizontal location (ruler# 6): 24cm
+	24.0
+right index finger horizontal location (ruler# 6): 24cm
+	33.0
+***** -24cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: -24cm
+Subject selected: M
+Subject answer = 12.0 crossed
+Subject answer = -12
+CHART:
+	a = 33
+	b = 15
+	c = 21
+	d = 9
+	e = 3
+	f = 0
+	g = 27
+	h = 6
+	i = 24
+	j = 39
+	k = 18
+	l = 30
+	m = 12
+	n = 42
+	o = 36
+
+left index finger horizontal location (ruler# 8): -24cm
+	49.5
+right index finger horizontal location (ruler# 8): -24cm
+	40.5
+***** 15cm *****
+Video played for 3 min.
+Perceived spacing - horizontal: 15cm
+Subject selected: M
+Subject answer = 18.0 uncrossed
+Subject answer = 18
+CHART:
+	a = 6
+	b = 15
+	c = 33
+	d = 39
+	e = 3
+	f = 24
+	g = 0
+	h = 21
+	i = 12
+	j = 27
+	k = 30
+	l = 42
+	m = 18
+	n = 9
+	o = 36
+
+left index finger horizontal location (ruler# 2): 15cm
+	27.0
+right index finger horizontal location (ruler# 2): 15cm
+	36.0
