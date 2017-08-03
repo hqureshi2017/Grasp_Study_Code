@@ -1,0 +1,142 @@
+------------------------
+ATTENTION GRASP ILLUSION
+------------------------
+
+2017-07-04 16:42:15
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/graspAttentionData/dummy_1/dummy_1_log.txt
+		/home/neura/Desktop/graspAttentionData/dummy_1/dummy_1_summary.txt
+		/home/neura/Desktop/graspAttentionData/dummy_1/dummy_1_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+video
+-----
+***** 12cm *****
+Video played for 0.1 min.
+Perceived spacing - vertical: 12cm
+Subject selected: M
+Subject answer = 0 together
+Subject answer = 0
+CHART:
+	a = 6
+	b = 4
+	c = 5
+	d = 12
+	e = 20
+	f = 7
+	g = 13
+	h = 18
+	i = 15
+	j = 19
+	k = 8
+	l = 11
+	m = 0
+	n = 17
+	o = 16
+	p = 1
+	q = 10
+	r = 2
+	s = 3
+	t = 9
+	u = 14
+
+Perceived ownership: 12cm
+	agree
+------------------------
+ATTENTION GRASP ILLUSION
+------------------------
+
+2017-07-04 16:43:02
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/graspAttentionData/dummy_1/dummy_1_log.txt
+		/home/neura/Desktop/graspAttentionData/dummy_1/dummy_1_summary.txt
+		/home/neura/Desktop/graspAttentionData/dummy_1/dummy_1_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+touch
+-----
+***** 12cm *****
+Perceived spacing - vertical: 12cm
+Subject selected: S
+Subject answer = 4.0 left above
+Subject answer = -4
+CHART:
+	a = 9
+	b = 7
+	c = 3
+	d = 11
+	e = 10
+	f = 20
+	g = 19
+	h = 16
+	i = 15
+	j = 13
+	k = 5
+	l = 2
+	m = 1
+	n = 17
+	o = 0
+	p = 18
+	q = 14
+	r = 12
+	s = 4
+	t = 8
+	u = 6
+
+Perceived ownership: 12cm
+	neither agree or disagree
+------------------------
+ATTENTION GRASP ILLUSION
+------------------------
+
+2017-07-04 16:43:48
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/graspAttentionData/dummy_1/dummy_1_log.txt
+		/home/neura/Desktop/graspAttentionData/dummy_1/dummy_1_summary.txt
+		/home/neura/Desktop/graspAttentionData/dummy_1/dummy_1_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+audio
+-----
+***** 12cm *****
+Perceived spacing - vertical: 12cm
+Subject selected: M
+Subject answer = 9.0 left above
+Subject answer = -9
+CHART:
+	a = 4
+	b = 16
+	c = 3
+	d = 12
+	e = 1
+	f = 14
+	g = 0
+	h = 18
+	i = 8
+	j = 13
+	k = 6
+	l = 7
+	m = 9
+	n = 5
+	o = 17
+	p = 2
+	q = 19
+	r = 10
+	s = 20
+	t = 11
+	u = 15
+
+Perceived ownership: 12cm
+	disagree

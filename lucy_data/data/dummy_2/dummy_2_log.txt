@@ -1,0 +1,142 @@
+------------------------
+ATTENTION GRASP ILLUSION
+------------------------
+
+2017-07-04 16:44:43
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/graspAttentionData/dummy_2/dummy_2_log.txt
+		/home/neura/Desktop/graspAttentionData/dummy_2/dummy_2_summary.txt
+		/home/neura/Desktop/graspAttentionData/dummy_2/dummy_2_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+video
+-----
+***** 12cm *****
+Video played for 0.1 min.
+Perceived spacing - vertical: 12cm
+Subject selected: U
+Subject answer = 3.0 left above
+Subject answer = -3
+CHART:
+	a = 20
+	b = 10
+	c = 0
+	d = 15
+	e = 17
+	f = 18
+	g = 19
+	h = 13
+	i = 7
+	j = 2
+	k = 9
+	l = 5
+	m = 16
+	n = 12
+	o = 8
+	p = 14
+	q = 11
+	r = 4
+	s = 1
+	t = 6
+	u = 3
+
+Perceived ownership: 12cm
+	strongly agree
+------------------------
+ATTENTION GRASP ILLUSION
+------------------------
+
+2017-07-04 16:46:15
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/graspAttentionData/dummy_2/dummy_2_log.txt
+		/home/neura/Desktop/graspAttentionData/dummy_2/dummy_2_summary.txt
+		/home/neura/Desktop/graspAttentionData/dummy_2/dummy_2_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+audio
+-----
+***** 12cm *****
+Perceived spacing - vertical: 12cm
+Subject selected: R
+Subject answer = 15.0 left above
+Subject answer = -15
+CHART:
+	a = 17
+	b = 4
+	c = 7
+	d = 11
+	e = 13
+	f = 1
+	g = 2
+	h = 9
+	i = 12
+	j = 10
+	k = 14
+	l = 3
+	m = 6
+	n = 20
+	o = 5
+	p = 18
+	q = 8
+	r = 15
+	s = 16
+	t = 0
+	u = 19
+
+Perceived ownership: 12cm
+	strongly disagree
+------------------------
+ATTENTION GRASP ILLUSION
+------------------------
+
+2017-07-04 16:47:11
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/graspAttentionData/dummy_2/dummy_2_log.txt
+		/home/neura/Desktop/graspAttentionData/dummy_2/dummy_2_summary.txt
+		/home/neura/Desktop/graspAttentionData/dummy_2/dummy_2_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+touch
+-----
+***** 12cm *****
+Perceived spacing - vertical: 12cm
+Subject selected: Q
+Subject answer = 6.0 left above
+Subject answer = -6
+CHART:
+	a = 2
+	b = 3
+	c = 1
+	d = 0
+	e = 9
+	f = 8
+	g = 15
+	h = 13
+	i = 5
+	j = 18
+	k = 11
+	l = 12
+	m = 4
+	n = 16
+	o = 19
+	p = 7
+	q = 6
+	r = 17
+	s = 14
+	t = 10
+	u = 20
+
+Perceived ownership: 12cm
+	neither agree or disagree

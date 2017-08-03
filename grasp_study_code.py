@@ -11,7 +11,7 @@
 # Using Spyder. Not sure how to get rid of it.  
 
 
-#from cumming_plot import cumming_plot
+import cumming_plot
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -20,18 +20,19 @@ from math import sqrt
 import os
 
 # Initialise variables
+sub_id = []
 age = []
 gender = []
-handedness = []
-grasp_c24cm_sp = []
-grasp_c24cm_own = []
-grasp_c24cm_r = []
-grasp_c24cm_l = []
+handedness = []                 # sp = Spacing
+grasp_c24cm_sp = []             # c = Index fingers are crossed
+grasp_c24cm_own = []            # own = Ownership
+grasp_c24cm_r = []              # r = Location of Right index
+grasp_c24cm_l = []              # l = Location of Left index
 grasp_c15cm_sp = []
 grasp_c15cm_own = []
 grasp_c15cm_r = []
 grasp_c15cm_l = []
-grasp_uc15cm_sp = []
+grasp_uc15cm_sp = []            # uc = Index fingers are uncrossed
 grasp_uc15cm_own = []
 grasp_uc15cm_r = []
 grasp_uc15cm_l = []
@@ -52,7 +53,6 @@ nograsp_uc24cm_sp = []
 nograsp_uc24cm_r = []
 nograsp_uc24cm_l = []
 indexes = []
-# TODO: Add conditionals for validation data
 val_R24cm_val1 = []
 val_R24cm_val2 = []
 val_R15cm_val1 = []
@@ -77,6 +77,7 @@ for sub_num in subjects:
         sub = 'sub' + '0' + str(sub_num)
     else:
         sub = 'sub' + str(sub_num)
+    sub_id.append(sub)
     info = os.path.join('.', 'data', sub, sub + '.txt')
     #print(info)       
 
@@ -84,6 +85,7 @@ for sub_num in subjects:
     # import data for subject info
     with open(info) as f:
         sub_info = f.readlines()
+    print(sub_info)    
     age.append(int(sub_info[3].strip()[-2:]))
     gender.append(str(sub_info[1].strip()[-1:]))
     handedness.append(str(sub_info[2].strip()[-1:]))
@@ -92,7 +94,6 @@ for sub_num in subjects:
     
     # Import data from experiment
     data_long = os.path.join('.', 'data', sub, sub + '_data.txt')
-    
     
     with open(data_long) as file:
         for line in file:
@@ -106,11 +107,23 @@ for sub_num in subjects:
                 
             #   VALIDATION DATA
             if (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_R15CM':
-                val_R15cm.append(int(line.split(':')[1]))
+                if not flag_R15:
+                    val_R15cm_val1.append(int(line.split(':')[1]))
+                    flag_R15 = True
+                elif flag_R15:
+                    val_R15cm_val2.append(int(line.split(':')[1]))
             elif (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_L15CM':
-                val_L15cm.append(int(line.split(':')[1]))
+                if not flag_L15:
+                    val_L15cm_val1.append(int(line.split(':')[1]))
+                    flag_L15 = True
+                elif flag_L15:
+                    val_L15cm_val2.append(int(line.split(':')[1]))
             elif (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_L24CM':
-                val_L24cm.append(int(line.split(':')[1]))
+                if not flag_L24:
+                    val_L24cm_val1.append(int(line.split(':')[1]))
+                    flag_L24 = True
+                elif flag_L24:
+                    val_L24cm_val2.append(int(line.split(':')[1]))
             elif (line.split(':')[0].strip()[-22:]) == 'MEASURE_SPACING_R24CM':
                 if not flag_R24:
                     val_R24cm_val1.append(int(line.split(':')[1]))
@@ -196,57 +209,65 @@ for sub_num in subjects:
          
                     
 # Dataframe for the sub info
-# TODO:  index rows with sub id
 exp1 = pd.DataFrame({'age': age,
                          'gender': gender,
-                         'handedness': handedness})
+                         'handedness': handedness},
+                         index = sub_id)
                     
 #DataFrame for validation data
-# TODO: Make dataframe with 30 rows and 4 columns; index rows with sub id
-val = pd.DataFrame({'L24':val_L24cm,
-                        'L15':val_L15cm,
-                        'R15':val_R15cm,
-                        'R24':val_R24cm})
+val = pd.DataFrame({'L24_1':val_L24cm_val1,
+                    'L24_2':val_L24cm_val2,
+                    'L15_1':val_L15cm_val1,
+                    'L15_2':val_L15cm_val2,
+                    'R15_1':val_R15cm_val1,
+                    'R15_2':val_R15cm_val2,
+                    'R24_1':val_R24cm_val1,
+                    'R24_2':val_R24cm_val2},
+                        index = sub_id)
 
 # Dataframe for actual data
-d = { 'age': pd.Series(age),
-      'gender': pd.Series(gender),
-      'handedness': pd.Series(handedness),
-      'grasp_c15cm_sp': pd.Series(grasp_c15cm_sp),  
-      'grasp_c15cm_own': pd.Series(grasp_c15cm_own),
-      'grasp_c15cm_r': pd.Series(grasp_c15cm_r),
-      'grasp_c15cm_l': pd.Series(grasp_c15cm_l),
-      'grasp_uc15cm_sp': pd.Series(grasp_uc15cm_sp),
-      'grasp_uc15cm_own': pd.Series(grasp_uc15cm_own),
-      'grasp_uc15cm_r': pd.Series(grasp_uc15cm_r),
-      'grasp_uc15cm_l': pd.Series(grasp_uc15cm_l),
-      'grasp_c24cm_sp': pd.Series(grasp_c24cm_sp),
-      'grasp_c24cm_own': pd.Series(grasp_c24cm_own),
-      'grasp_c24cm_r': pd.Series(grasp_c24cm_r),
-      'grasp_c24cm_l': pd.Series(grasp_c24cm_l),
-      'grasp_uc24cm_sp': pd.Series(grasp_uc24cm_sp),
-      'grasp_uc24cm_own': pd.Series(grasp_uc24cm_own),
-      'grasp_uc24cm_r': pd.Series(grasp_uc24cm_r),
-      'grasp_uc24cm_l': pd.Series(grasp_uc24cm_l),
-      'nograsp_c24cm_sp': pd.Series(nograsp_c24cm_sp),
-      'nograsp_c24cm_r': pd.Series(nograsp_c24cm_r),
-      'nograsp_c24cm_l': pd.Series(nograsp_c24cm_l),
-      'nograsp_c15cm_sp': pd.Series(nograsp_c15cm_sp),
-      'nograsp_c15cm_r': pd.Series(nograsp_c15cm_r),
-      'nograsp_c15cm_l': pd.Series(nograsp_c15cm_l),
-      'nograsp_uc15cm_sp': pd.Series(nograsp_uc15cm_sp),
-      'nograsp_uc15cm_r': pd.Series(nograsp_uc15cm_r),
-      'nograsp_uc15cm_l': pd.Series(nograsp_uc15cm_l),
-      'nograsp_uc24cm_sp': pd.Series(nograsp_uc24cm_sp),
-      'nograsp_uc24cm_r': pd.Series(nograsp_uc24cm_r),
-      'nograsp_uc24cm_l': pd.Series(nograsp_uc24cm_l),
-      #'val_R24cm': pd.Series(val_R24cm),
-      #'val_R15cm': pd.Series(val_R15cm),
-      #'val_L24cm': pd.Series(val_L24cm),
-      #'val_L15cm': pd.Series(val_L15cm)
-      }
-# TODO:  index rows with sub id
-df = pd.DataFrame(d)
+d = { 'age': age,
+      'gender': gender,
+      'handedness': handedness,
+      'grasp_c15cm_sp': grasp_c15cm_sp,  
+      'grasp_c15cm_own': grasp_c15cm_own,
+      'grasp_c15cm_r': grasp_c15cm_r,
+      'grasp_c15cm_l': grasp_c15cm_l,
+      'grasp_uc15cm_sp': grasp_uc15cm_sp,
+      'grasp_uc15cm_own': grasp_uc15cm_own,
+      'grasp_uc15cm_r': grasp_uc15cm_r,
+      'grasp_uc15cm_l': grasp_uc15cm_l,
+      'grasp_c24cm_sp': grasp_c24cm_sp,
+      'grasp_c24cm_own': grasp_c24cm_own,
+      'grasp_c24cm_r': grasp_c24cm_r,
+      'grasp_c24cm_l': grasp_c24cm_l,
+      'grasp_uc24cm_sp': grasp_uc24cm_sp,
+      'grasp_uc24cm_own': grasp_uc24cm_own,
+      'grasp_uc24cm_r': grasp_uc24cm_r,
+      'grasp_uc24cm_l': grasp_uc24cm_l,
+      'nograsp_c24cm_sp': nograsp_c24cm_sp,
+      'nograsp_c24cm_r': nograsp_c24cm_r,
+      'nograsp_c24cm_l': nograsp_c24cm_l,
+      'nograsp_c15cm_sp': nograsp_c15cm_sp,
+      'nograsp_c15cm_r': nograsp_c15cm_r,
+      'nograsp_c15cm_l': nograsp_c15cm_l,
+      'nograsp_uc15cm_sp': nograsp_uc15cm_sp,
+      'nograsp_uc15cm_r': nograsp_uc15cm_r,
+      'nograsp_uc15cm_l': nograsp_uc15cm_l,
+      'nograsp_uc24cm_sp': nograsp_uc24cm_sp,
+      'nograsp_uc24cm_r': nograsp_uc24cm_r,
+      'nograsp_uc24cm_l': nograsp_uc24cm_l,
+      #'L24_1':val_L24cm_val1,
+      #  'L24_2':val_L24cm_val2,
+#        'L15_1':val_L15cm_val1,
+#        'L15_2':val_L15cm_val2,
+#        'R15_1':val_R15cm_val1,
+#        'R15_2':val_R15cm_val2,
+#        'R24_1':val_R24cm_val1,
+#        'R24_2':val_R24cm_val2
+            }
+        
+df = pd.DataFrame(d, index = sub_id)
 
 # Way to inspect dataframe
 print(df.to_string())
@@ -272,49 +293,10 @@ df['-24cm_grasp_vs_nograsp_sp'] = df.grasp_c24cm_sp - df.nograsp_c24cm_sp
 df['-24cm_grasp_vs_nograsp_r'] = df.grasp_c24cm_r - df.nograsp_c24cm_r
 df['-24cm_grasp_vs_nograsp_l'] = df.grasp_c24cm_l - df.nograsp_c24cm_l
 
-
-
-
-
-# Dataframes per measure
-                 
-spacing = {'L24': pd.Series(grasp_uc24cm_sp),
-           'L15': pd.Series(grasp_uc15cm_sp),
-           'R15': pd.Series(grasp_c15cm_sp),
-           'R24': pd.Series(grasp_c24cm_sp)}
-df_spacing = pd.DataFrame(spacing)
-
-spacing_nograsp = {'L24': pd.Series(nograsp_uc24cm_sp),
-           'L15': pd.Series(nograsp_uc15cm_sp),
-           'R15': pd.Series(nograsp_c15cm_sp),
-           'R24': pd.Series(nograsp_c24cm_sp)}
-df_spacing_nograsp = pd.DataFrame(spacing_nograsp)
-
-
-ownership = {'L24': pd.Series(grasp_uc24cm_own),
-             'L15': pd.Series(grasp_uc15cm_own),
-             'R15': pd.Series(grasp_c15cm_own),
-             'R24': pd.Series(grasp_c24cm_own)}
-df_ownership = pd.DataFrame(ownership)
-    
-        
-left = {'R15': pd.Series(grasp_c15cm_l),
-        'L15': pd.Series(grasp_uc15cm_l),
-        'L24': pd.Series(grasp_uc24cm_l),
-        'R24': pd.Series(grasp_c24cm_l)}
-df_left = pd.DataFrame(left)
-
-right = {'R15': pd.Series(grasp_c15cm_r),
-        'L15': pd.Series(grasp_uc15cm_r),
-        'L24': pd.Series(grasp_uc24cm_r),
-        'R24': pd.Series(grasp_c24cm_r)}
-df_right = pd.DataFrame(right)
-
-            
-            
+      
 #%%
 # ------------------------------------------
-# Stats
+#       Stats
 # ------------------------------------------                
    
 for i in df:
@@ -323,19 +305,22 @@ for i in df:
                format(i, df[i].count(), df[i].mean(), df[i].std(), (df[i].std()/sqrt(len(df[i])))*1.96, df[i].min(), df[i].max()))
 
 
-
-
-    R24 = val.R24.mean()
-    R15 = val.R15.mean()
-    L24 = val.L24.mean()
-    L15 = val.L15.mean()
-    
-    #R24 = df_ownership.grasp_c24cm_own.mean()
-    #R15 = df_ownership.grasp_c15cm_own.mean()
-    #L24 = df_ownership.grasp_uc24cm_own.mean()
-    #L15 = df_ownership.grasp_uc15cm_own.mean()
     
 #%%
+# ------------------------------------------
+#       GRAPHS
+# ------------------------------------------
+#   15cm_Spacing
+import cumming_plot
+from random import randint
+start = (grasp_uc15cm_sp)
+end = (nograsp_uc15cm_sp)
+data = [start, end]
+# Simple plot
+import matplotlib.pyplot as plt
+fig = plt.figure()
+ax = fig.add_subplot(111)
+cumming_plot.paired(data, ax)
+plt.show()
 
-
-#   !! Need to plot !!
+# ?? How do I put four on one graph?

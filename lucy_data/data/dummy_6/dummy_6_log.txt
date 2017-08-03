@@ -1,0 +1,142 @@
+------------------------
+ATTENTION GRASP ILLUSION
+------------------------
+
+2017-07-04 16:54:37
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/graspAttentionData/dummy_6/dummy_6_log.txt
+		/home/neura/Desktop/graspAttentionData/dummy_6/dummy_6_summary.txt
+		/home/neura/Desktop/graspAttentionData/dummy_6/dummy_6_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+video
+-----
+***** 12cm *****
+Video played for 0.1 min.
+Perceived spacing - vertical: 12cm
+Subject selected: H
+Subject answer = 0 together
+Subject answer = 0
+CHART:
+	a = 2
+	b = 19
+	c = 14
+	d = 9
+	e = 3
+	f = 7
+	g = 13
+	h = 0
+	i = 17
+	j = 20
+	k = 1
+	l = 6
+	m = 12
+	n = 4
+	o = 15
+	p = 5
+	q = 8
+	r = 10
+	s = 18
+	t = 16
+	u = 11
+
+Perceived ownership: 12cm
+	agree
+------------------------
+ATTENTION GRASP ILLUSION
+------------------------
+
+2017-07-04 16:55:36
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/graspAttentionData/dummy_6/dummy_6_log.txt
+		/home/neura/Desktop/graspAttentionData/dummy_6/dummy_6_summary.txt
+		/home/neura/Desktop/graspAttentionData/dummy_6/dummy_6_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+touch
+-----
+***** 12cm *****
+Perceived spacing - vertical: 12cm
+Subject selected: S
+Subject answer = 2.0 right above
+Subject answer = 2
+CHART:
+	a = 7
+	b = 15
+	c = 13
+	d = 9
+	e = 5
+	f = 18
+	g = 4
+	h = 1
+	i = 6
+	j = 16
+	k = 17
+	l = 14
+	m = 8
+	n = 20
+	o = 3
+	p = 19
+	q = 12
+	r = 11
+	s = 2
+	t = 10
+	u = 0
+
+Perceived ownership: 12cm
+	somewhat agree
+------------------------
+ATTENTION GRASP ILLUSION
+------------------------
+
+2017-07-04 16:56:25
+
+Starting study setup.
+	Creating:
+		/home/neura/Desktop/graspAttentionData/dummy_6/dummy_6_log.txt
+		/home/neura/Desktop/graspAttentionData/dummy_6/dummy_6_summary.txt
+		/home/neura/Desktop/graspAttentionData/dummy_6/dummy_6_data.txt
+	Writing experiment summary.
+Finished study setup.
+
+-----
+audio
+-----
+***** 12cm *****
+Perceived spacing - vertical: 12cm
+Subject selected: O
+Subject answer = 6.0 right above
+Subject answer = 6
+CHART:
+	a = 0
+	b = 12
+	c = 16
+	d = 3
+	e = 8
+	f = 1
+	g = 4
+	h = 19
+	i = 5
+	j = 11
+	k = 15
+	l = 2
+	m = 7
+	n = 17
+	o = 6
+	p = 13
+	q = 14
+	r = 20
+	s = 9
+	t = 18
+	u = 10
+
+Perceived ownership: 12cm
+	somewhat agree
