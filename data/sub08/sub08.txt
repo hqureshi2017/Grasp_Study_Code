@@ -1,4 +1,0 @@
-Sub ID:sub08
-Gender:M
-Handedness:R
-Age:29

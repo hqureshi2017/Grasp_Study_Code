@@ -1,4 +1,0 @@
-Sub ID:sub22 
-Gender:M 
-Handedness:R 
-Age:33

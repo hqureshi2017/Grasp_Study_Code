@@ -1,4 +1,0 @@
-Sub ID:sub06
-Gender:F
-Handedness:R
-Age:24

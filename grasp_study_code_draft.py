@@ -1,16 +1,19 @@
 
-
-# ------------------MARTY --------------------
-# Not sure what program you are using, but it
-# keeps on adding author info. This will keep
-# on getting longer and longer and is somewhat
-# ugly. See if you can disactivate this
-# functionality in your editor.
-# 
-#----------------- Hassan -----------------------
-# Using Spyder. Not sure how to get rid of it.  
-
-
+#--------------- README------------------------
+#
+# This file is for making graphs using MOCK data for Grasp Study. 
+#
+#------------------------------------------------
+'''
+TODO
+    Change path files to import mock data
+    Using Lucy's code to make graphs with blinded plots.
+        This is for individual subjects, just to visualize data
+        Need to make graphs with 4 locations in 1.
+    Once they are confirmed by others, unblind and analyze.
+    
+ 
+'''
 import cumming_plot
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -579,3 +582,72 @@ fig = plt.figure()
 ax = fig.add_subplot(111)
 cumming_plot.paired(data, ax)
 plt.show()
+
+
+# ----------------------
+#GRAPHS
+#------------------------
+
+
+# PERCEIVED SPACING
+sns.set_context("notebook", font_scale=1.5, rc={"lines.linewidth": 2})
+fig = plt.figure(figsize=(9, 11))
+
+blinding = True
+trials = ['grasp_c24cm_sp', 'grasp_c15cm_sp', 'grasp_uc15cm_sp', 'grasp_uc24cm_sp']
+if blinding:
+    random.shuffle(trials)
+
+   
+ax1 = fig.add_subplot(211)
+data_long = pd.melt(df,  value_vars=trials)
+sns.swarmplot(x='variable', y="value", data=df)
+ax1.set_xlabel('Horizontal Locations')
+ax1.set_ylabel('perceived spacing (cm)')
+x = [0, 1, 2,3]
+labels = ['L15', 'L24',  'R15',  'R24']
+#plt.xticks(x, labels, rotation='vertical')
+plt.title('SPACING')
+
+# PERCEIVED OWNERSHIP
+sns.set_context("notebook", font_scale=1.5, rc={"lines.linewidth": 2})
+fig = plt.figure(figsize=(9, 11))
+
+blinding = True
+trials = ['grasp_c24cm_sp', 'grasp_c15cm_sp', 'grasp_uc15cm_sp', 'grasp_uc24cm_sp']
+if blinding:
+    random.shuffle(trials)
+
+ax1 = fig.add_subplot(211)
+data_long = pd.melt(df_ownership,  value_vars=trials)
+sns.swarmplot(data=df_ownership)
+ax1.set_xlabel('Horizontal Locations')
+ax1.set_ylabel('perceived ownership')
+x = [0, 1, 2, 3]
+labels = ['L15', 'L24',  'R15',  'R24']
+plt.xticks(x, labels, rotation='horizontal')
+plt.title('Ownership')
+
+
+# Paired data
+    a = nograsp_uc24cm_sp
+    b = grasp_uc24cm_sp
+    ab = [a, b]
+
+    # COMPLEX EXAMPLE
+    ab_errors='SD'
+    yticks = [-10, 30, 10]
+    style = {'a': ['r*', 'k'], 'b': ['yo', 'g'], 'diff': ['w^', 'm']}
+    ylabel = 'Spacing'
+    xlabel = ['NG', 'G', 'diff']
+    zero_line = True
+    y2label = 'y2 difference axis'
+    y2ticks = True
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    paired(ab, ax, ab_errors=ab_errors, yticks=yticks,
+                style=style, ylabel=ylabel, xlabel=xlabel,
+                zero_line=zero_line, y2label=y2label,
+                y2ticks=y2ticks)
+    plt.suptitle('Perceived spacing -24cm')
+    plt.show()

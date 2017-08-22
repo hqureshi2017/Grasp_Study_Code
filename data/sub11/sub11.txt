@@ -1,4 +1,0 @@
-Sub ID:sub11
-Gender:M
-Handedness:R
-Age:23

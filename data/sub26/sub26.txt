@@ -1,4 +1,0 @@
-Sub ID:sub26 
-Gender:F 
-Handedness:R 
-Age:41

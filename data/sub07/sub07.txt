@@ -1,4 +1,0 @@
-Sub ID:sub07
-Gender:M
-Handedness:L
-Age:27

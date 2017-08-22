@@ -1,4 +1,0 @@
-On Day 1, 3rd trial of the No Grasp, the program crashed during the location measures due to wrong ruler placement. The measures were recorded on testing sheet and calculated later. A new "test" file was created to test the last remaining trial (-15cm). 
-The original files have been retained as a copy. 
-
-Hassan 20/06/2017

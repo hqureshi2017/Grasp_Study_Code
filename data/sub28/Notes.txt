@@ -1,4 +1,0 @@
-Subject's 3rd trial for the Grasp condition on day One was adjusted.
-For the location measure, the subject seems to have reported the location measures in the wrong order. The original file was kept as a copy and the data file was edited. 
-
-Hassan 17/07/17

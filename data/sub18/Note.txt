@@ -1,3 +1,0 @@
-Program crashed during the validation testing at the 5th trial (L24). The location measures were recorded on sheet and added later. Sub18b was created to complete the three remaining trials. The original data file has been kept as a copy and the 18b files are in the folder. The data file for sub18 was edited.
-
-Hassan 03/07/2017

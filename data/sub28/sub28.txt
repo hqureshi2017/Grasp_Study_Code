@@ -1,4 +1,0 @@
-Sub ID:sub28
-Gender:M
-Handedness:R
-Age:57
